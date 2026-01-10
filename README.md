@@ -45,8 +45,7 @@ Day-11: Basic Concept Of Azure Networking Resources
       3. Azure Service Endpoint
 
 Day-12: VPN/Azure Virtual Network Gateway/Azure VPN Gateway
-
-      * Real time demo using Azure Point-to-Site VPN
+    * Real time demo using Azure Point-to-Site VPN
 
 Day-13: Azure Virtual Network Peering
 
@@ -55,7 +54,8 @@ Day-14: Identity management with AD (Entra ID)
 Day-15: Basic concept of Azure Data and Database
 
 Day-16: Azure Storage(Data)
-     * Azure storage account
+
+   * Azure storage account
 
 Day-17: Relational Database Service- Azure MYSQL DB
 
