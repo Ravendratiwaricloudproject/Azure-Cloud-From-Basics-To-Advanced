@@ -84,12 +84,12 @@ Day-27: Messaging in Azure
    * Event Hubs
 
 Day-28: Monitoring in Azure
-    * Azure Monitor
-    * Azure Microsoft Defender- (Security alerts and incidents)
-    * Activity Log
-    * Azure Service Health
-    * Insights
-    * Diagnostic Settings
+   * Azure Monitor
+   * Azure Microsoft Defender- (Security alerts and incidents)
+   * Activity Log
+   * Azure Service Health
+   * Insights
+   * Diagnostic Settings
 
 Day-29: Azure Traffic Manager
 
