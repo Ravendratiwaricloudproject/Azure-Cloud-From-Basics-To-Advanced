@@ -97,9 +97,8 @@ Day-30: Azure Front Door and CDN
 
 Day-31: Basic overview of Disaster Recovery (DR) in Azure
 
-      * Disaster Recovery of data in Azure
-
-      * Disaster Recovery of compute in Azure
+  * Disaster Recovery of data in Azure
+  * Disaster Recovery of compute in Azure
 
 Day-32: Azure Container Registry (ACR)
 
