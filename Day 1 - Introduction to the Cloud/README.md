@@ -135,54 +135,51 @@ In the cloud area… If you need a server, you can:
    Uses private cloud infrastructure and engines
    Contains a subset of the public cloud’s capabilities
 
-3. Hybrid Cloud:
-It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other.
-A cloud set up in an organization’s premises… but also connected to the public cloud.
-Workload can be separated between the two clouds
-	i.e. Sensitive data in the organization’s premises, public data in the public cloud.
-Usually managed by the public cloud, but not always.
+3. Hybrid Cloud: It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other.
+   A cloud set up in an organization’s premises… but also connected to the public cloud.
+   Workload can be separated between the two clouds
+   i.e. Sensitive data in the organization’s premises, public data in the public cloud.
+   Usually managed by the public cloud, but not always.
 
 4. Community Cloud:
    It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
 
 
 # Types of Cloud Services:
-
 1. IaaS (Infrastructure as a Service):
-The cloud provider provides the underlying infrastructure, including:
-Compute
-Networking
-Storage
-The client is responsible for:
-Operating System
-Middleware
-Runtime
-Applications
-Data
-Most common example: Virtual Machines (VMs / Instances)  
-
+   The cloud provider provides the underlying infrastructure, including:
+   Compute
+   Networking
+   Storage
+   The client is responsible for:
+   Operating System
+   Middleware
+   Runtime
+   Applications
+   Data
+   Most common example: Virtual Machines (VMs / Instances)
+   
 2. PaaS (Platform as a Service):
-The cloud provider provides a platform for running applications, including:
-Compute
-Networking
-Storage
-Runtime environment
-Scaling
-Redundancy
-Security
-Updates, patching, and maintenance
-The client only needs to bring the application code.
-Most common examples:
-Azure: Web Apps (Azure App Service)
-AWS: Elastic Beanstalk
+   The cloud provider provides a platform for running applications, including:
+   Compute
+   Networking
+   Storage
+   Runtime environment
+   Scaling
+   Redundancy
+   Security
+   Updates, patching, and maintenance
+   The client only needs to bring the application code.
+   Most common examples:
+   Azure: Web Apps (Azure App Service)
+   AWS: Elastic Beanstalk
+   In PaaS:
+   The cloud provider manages the runtime and infrastructure required to run the web application.
+   The client uploads the code, and the application runs automatically.
+   The client does not have access to the underlying virtual machines.
 
-In PaaS:
-The cloud provider manages the runtime and infrastructure required to run the web application.
-The client uploads the code, and the application runs automatically.
-The client does not have access to the underlying virtual machines.
 
-
-4. SaaS (Software as a Service):
+3. SaaS (Software as a Service):
    A software application that runs completely in the cloud.
    The user does not need to install anything on-premises or on their local machine.
    The software provider takes care of updates, patches, scalability, redundancy, security, and maintenance.
