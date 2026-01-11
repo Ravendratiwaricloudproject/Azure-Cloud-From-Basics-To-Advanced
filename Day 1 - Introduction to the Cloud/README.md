@@ -68,7 +68,7 @@ Each Region has multiple, Isolated locations known as availability zone (AZ).
 •	A physically separate data center
 •	Has its own power, cooling, and networking
 •	Designed for high availability and fault tolerance
-👉 If one AZ fails, others continue working.
+If one AZ fails, others continue working.
 
 # Who Are Cloud Providers?
  
@@ -77,10 +77,10 @@ Cloud Providers are companies that:
 •	Install servers, networking, cooling, electricity
 •	Create cloud services
 •	Make them accessible over the internet
-📌 Examples:
-•	AWS (Amazon Web Services)
-•	Microsoft Azure
-•	Google Cloud Platform
+Examples:
+AWS (Amazon Web Services)
+Microsoft Azure
+Google Cloud Platform
 
 In the cloud area… If you need a server, you can:
 
