@@ -88,32 +88,31 @@ In the cloud area… If you need a server, you can:
 5. Automatically maintained, patched, secured, monitored.
 
 # Characteristics of Cloud Computing:
-     
 1. On-Demand Self Service:
-1. It is the primary feature of the cloud provider by which we can create our account and use any services.
-2. No human interaction is needed for resource provisioning.
-3. Resource can be provisioned (created) with a click of a button.
-4. Provisioning is available 24/7
+   It is the primary feature of the cloud provider by which we can create our account and use any services.
+   No human interaction is needed for resource provisioning.
+   Resource can be provisioned (created) with a click of a button.
+   Provisioning is available 24/7
 
 2. Broad Network Access:
-1. Resources can be accessed from anywhere at any time using the network
-2. No physical access is required at any time.	
+   Resources can be accessed from anywhere at any time using the network
+    No physical access is required at any time.	
 
 3. Resource Pooling:
-1. It is a group of resource that can be assigned to user. In resource pooling, customers service run on shared physical hardware for the save of the cost.
-2. Physical resources are shared between customers.
-3. The cloud’s backbone decides which physical resource to allocate for a customer’s virtual services
-4. Some advanced cloud services allow for physical resource separation.
+   It is a group of resource that can be assigned to user. In resource pooling, customers service run on shared physical hardware for the save of the cost.
+   Physical resources are shared between customers.
+   The cloud’s backbone decides which physical resource to allocate for a customer’s virtual services
+   Some advanced cloud services allow for physical resource separation.
 
 4. Rapid Elasticity:
-1. Resources can be scaled up and down as needed, automatically.
-2. 	No need to purchase resources for a one-time peak scenario.
+   Resources can be scaled up and down as needed, automatically.
+   No need to purchase resources for a one-time peak scenario.
   
 5. Pay-per-use Pricing:
-1. Payment is done only for resources actually used. such as, Server time / DB storage / Function calls etc.
-2. Payment method for cloud computing those charges based on uses.
-3. Server time by the second.
-4. No need to invest money in non-used resources.
+   Payment is done only for resources actually used. such as, Server time / DB storage / Function calls etc.
+   Payment method for cloud computing those charges based on uses.
+   Server time by the second.
+   No need to invest money in non-used resources.
 
 6. Monitoring:
    We can monitor our services and billing etc.
@@ -121,55 +120,72 @@ In the cloud area… If you need a server, you can:
 # Types of Clouds:
 
 1. Public Cloud:
-   •	The Public cloud is a subscription base service that offered to any and all customers who want similar services.
-   •	The cloud is set up in the public network.
-   •	Managed by large companies.
-   •	Accessible through the internet.
-   •	Available to all clients and users.
-   •	Clients have no access to underlying infrastructure.
+   The Public cloud is a subscription base service that offered to any and all customers who want similar services.
+   The cloud is set up in the public network.
+   Managed by large companies.
+   Accessible through the internet.
+   Available to all clients and users.
+   Clients have no access to underlying infrastructure.
 
 2. Private Cloud:
-•	A cloud set up in an organization’s premises
-•	Managed by the organization’s IT team
-•	Accessible only in the organization’s network
-•	Available to users from the organizations
-•	Uses private cloud infrastructure and engines
-•	Contains a subset of the public cloud’s capabilities
+   A cloud set up in an organization’s premises
+   Managed by the organization’s IT team
+   Accessible only in the organization’s network
+   Available to users from the organizations
+   Uses private cloud infrastructure and engines
+   Contains a subset of the public cloud’s capabilities
 
 3. Hybrid Cloud:
 It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other.
-•	A cloud set up in an organization’s premises… but also connected to the public cloud.
-•	Workload can be separated between the two clouds
+A cloud set up in an organization’s premises… but also connected to the public cloud.
+Workload can be separated between the two clouds
 	i.e. Sensitive data in the organization’s premises, public data in the public cloud.
-•	Usually managed by the public cloud, but not always.
+Usually managed by the public cloud, but not always.
 
 4. Community Cloud:
-   • It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
+   It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
 
 
 # Types of Cloud Services:
 
 1. IaaS (Infrastructure as a Service):
-   • The cloud provides Provide the underlying platform:
-   Compute
-   Networking
-   Storage
-   • The client handles, and is responsible for all the rest.
-   Most common example: Virtual Machines (Instances).
-   • The cloud provides the host machine, networking and disks.
-   • The client creates the virtual (guest) machine, installs software on it, patches it, maintains it etc.    
+The cloud provider provides the underlying infrastructure, including:
+Compute
+Networking
+Storage
+The client is responsible for:
+Operating System
+Middleware
+Runtime
+Applications
+Data
+Most common example: Virtual Machines (VMs / Instances)  
 
 2. PaaS (Platform as a Service):
-The cloud Providers provides platform for running apps:
-•	Including: Compute, networking, storage, runtime environment, scaling, redundancy, security, updates, patching, maintenance etc.
-•	The client just needs to bring the code to run.
-Most common example: (Azure: Web Apps), (AWS: Elastic Beanstalk)
-•	The cloud Providers provides the runtime for running web application.
-•	The client uploads the code, and it just runs.
-•	The client has no access to the underlying virtual machines.
+The cloud provider provides a platform for running applications, including:
+Compute
+Networking
+Storage
+Runtime environment
+Scaling
+Redundancy
+Security
+Updates, patching, and maintenance
+The client only needs to bring the application code.
+Most common examples:
+Azure: Web Apps (Azure App Service)
+AWS: Elastic Beanstalk
+
+In PaaS:
+The cloud provider manages the runtime and infrastructure required to run the web application.
+The client uploads the code, and the application runs automatically.
+The client does not have access to the underlying virtual machines.
 
 
-3. SaaS (Software as a Service):
-   1. A software running completely in the cloud.
-   2. The user doesn’t need to install anything on-premises or on his machine
-   3. The providers of the software take care of updates, patches, redundancy, scalability etc.
+4. SaaS (Software as a Service):
+   A software application that runs completely in the cloud.
+   The user does not need to install anything on-premises or on their local machine.
+   The software provider takes care of updates, patches, scalability, redundancy, security, and maintenance.
+   Common SaaS examples:
+   Microsoft 365
+   Salesforce
