@@ -1,8 +1,8 @@
-                                                          # Introduction to the Cloud #
+ # Introduction to the Cloud #
 
 # Before the cloud…
 
-•	If you needed a server, you had to:
+• If you needed a server, you had to:
 • Buy physical servers
 • Install operating systems and software
 • Set up networking
@@ -25,7 +25,9 @@ Problems with this approach:
 # What is Cloud?
 Compute, Networking, Storage and other services Managed by SOMEONE ELSE.
 "The cloud" refers to a network of remote servers that store and manage data, run applications, and deliver content and services over the internet.
-Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time with an internet connection. Such as Server, Network, Storage, Database, Application and services. In the cloud, we stop thinking about Infrastructure like Hardware and use it as a Software.
+Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time
+with an internet connection. Such as Server, Network, Storage, Database, Application and services. In the cloud, we stop thinking about Infrastructure like Hardware and use
+it as a Software.
 Examples of Cloud services:
 You already use cloud services every day:
 •	Google Drive / Dropbox → Cloud Storage
@@ -145,7 +147,7 @@ It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is run
 
 4. Community Cloud:
 
-•	It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
+• It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
 
 
 # Types of Cloud Services:
@@ -156,7 +158,7 @@ It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is run
    Networking
    Storage
 •	The client handles, and is responsible for all the rest.  
-  Most common example: Virtual Machines (Instances).
+    Most common example: Virtual Machines (Instances).
 •	The cloud provides the host machine, networking and disks.
 •	The client creates the virtual (guest) machine, installs software on it, patches it, maintains it etc.    
 
