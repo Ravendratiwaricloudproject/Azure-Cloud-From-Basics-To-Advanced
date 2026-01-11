@@ -167,14 +167,13 @@ It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is run
 The cloud Providers provides platform for running apps:
 •	Including: Compute, networking, storage, runtime environment, scaling, redundancy, security, updates, patching, maintenance etc.
 •	The client just needs to bring the code to run.
-  Most common example: (Azure: Web Apps), (AWS: Elastic Beanstalk)
+    Most common example: (Azure: Web Apps), (AWS: Elastic Beanstalk)
 •	The cloud Providers provides the runtime for running web application.
 •	The client uploads the code, and it just runs.
 •	The client has no access to the underlying virtual machines.
 
 
 3. SaaS (Software as a Service):
-	
-•	A software running completely in the cloud.
-•	The user doesn’t need to install anything on-premises or on his machine
-•	The providers of the software take care of updates, patches, redundancy, scalability etc.
+   1. A software running completely in the cloud.
+   2. The user doesn’t need to install anything on-premises or on his machine
+   3. The providers of the software take care of updates, patches, redundancy, scalability etc.
