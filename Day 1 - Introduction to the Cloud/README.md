@@ -1,26 +1,25 @@
 # Introduction to the Cloud #
 
 # Before the cloud…
-
-• If you needed a server, you had to:
-• Buy physical servers
-• Install operating systems and software
-• Set up networking
-• Maintain hardware
-• Replace servers when they became old
-• Hire a full IT team
+If you needed a server, you had to:
+1. Buy physical servers
+2. Install operating systems and software
+3. Set up networking
+4.  Maintain hardware
+5.   Replace servers when they became old
+6.   Hire a full IT team
 
 And this was not just for servers, but also for:
-•	Databases
-•	Storage
-•	User management
-•	Security
+1. Databases
+2. Storage
+3. User management
+4. Security
 
 Problems with this approach:
-	Very expensive
-	Time-consuming
-	Wasted money when servers were idle
-	Difficult to scale when users increased
+1. Very expensive
+2. Time-consuming
+3. Wasted money when servers were idle
+4. Difficult to scale when users increased
 
 # What is Cloud?
 Compute, Networking, Storage and other services Managed by SOMEONE ELSE.
@@ -30,10 +29,10 @@ with an internet connection. Such as Server, Network, Storage, Database, Applica
 it as a Software.
 Examples of Cloud services:
 You already use cloud services every day:
-•	Google Drive / Dropbox → Cloud Storage
-•	Gmail / Outlook → Cloud Email
-•	Netflix / Spotify → Cloud Streaming
-•	Microsoft 365 / Adobe Creative Cloud → Cloud Software
+1. Google Drive / Dropbox → Cloud Storage
+2. Gmail / Outlook → Cloud Email
+3. Netflix / Spotify → Cloud Streaming
+4. Microsoft 365 / Adobe Creative Cloud → Cloud Software
 
 # What is Cloud Computing?
 Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing.
@@ -45,91 +44,89 @@ Note: In the cloud computing, the term “compute” describes the concepts and 
 # Why do we need Cloud Computing?
 Imagine hosting a website without cloud computing:
 You would need to:
-•	Buy expensive servers
-•	Estimate how many users will visit
-•	Handle traffic spikes
-•	Hire people for monitoring and maintenance
-•	Pay even when servers are not used
+1. Buy expensive servers
+2. Estimate how many users will visit
+3. Handle traffic spikes
+4. Hire people for monitoring and maintenance
+5. Pay even when servers are not used
 
  Cloud solves all of this by providing:
-•	Pay only for what you use
-•	Automatic scaling
-•	No hardware management
-•	High availability
+ 1. Pay only for what you use
+ 2. Automatic scaling
+ 3. No hardware management
+ 4. High availability
 
 # What is Region?
 Region = A geographic area where cloud data centers are located.
-•	Each region is isolated from other regions
-•	A region contains multiple Availability Zones
-•	Example: East US, West Europe, Asia Pacific
+1. Each region is isolated from other regions
+2. A region contains multiple Availability Zones
+3. Example: East US, West Europe, Asia Pacific
 
 # What is Availability zone (AZ)?
 Each Region has multiple, Isolated locations known as availability zone (AZ).
-•	A physically separate data center
-•	Has its own power, cooling, and networking
-•	Designed for high availability and fault tolerance
+1. A physically separate data center
+2. Has its own power, cooling, and networking
+3. Designed for high availability and fault tolerance
 If one AZ fails, others continue working.
 
 # Who Are Cloud Providers?
- 
-Cloud Providers are companies that:
-•	Build huge data centers
-•	Install servers, networking, cooling, electricity
-•	Create cloud services
-•	Make them accessible over the internet
+ Cloud Providers are companies that:
+ 1. Build huge data centers
+ 2. Install servers, networking, cooling, electricity
+ 3. Create cloud services
+ 4. Make them accessible over the internet
 Examples:
 AWS (Amazon Web Services)
 Microsoft Azure
 Google Cloud Platform
 
 In the cloud area… If you need a server, you can:
-
-•	Create it in the cloud within minutes
-•	Use it as you wish
-•	Pay for what you use
-•	Shut it down when not needed
-•	Automatically maintained, patched, secured, monitored.
+1. Create it in the cloud within minutes
+2. Use it as you wish
+3. Pay for what you use
+4. Shut it down when not needed
+5. Automatically maintained, patched, secured, monitored.
 
 # Characteristics of Cloud Computing:
      
 1. On-Demand Self Service:
-•	It is the primary feature of the cloud provider by which we can create our account and use any services.
-•	No human interaction is needed for resource provisioning.
-•	Resource can be provisioned (created) with a click of a button.
-•	Provisioning is available 24/7
+1. It is the primary feature of the cloud provider by which we can create our account and use any services.
+2. No human interaction is needed for resource provisioning.
+3. Resource can be provisioned (created) with a click of a button.
+4. Provisioning is available 24/7
 
 2. Broad Network Access:
-•	Resources can be accessed from anywhere at any time using the network
-•	No physical access is required at any time.	
+1. Resources can be accessed from anywhere at any time using the network
+2. No physical access is required at any time.	
 
 3. Resource Pooling:
-•	It is a group of resource that can be assigned to user. In resource pooling, customers service run on shared physical hardware for the save of the cost.
-•	Physical resources are shared between customers.
-•	The cloud’s backbone decides which physical resource to allocate for a customer’s virtual services
-•	Some advanced cloud services allow for physical resource separation.
+1. It is a group of resource that can be assigned to user. In resource pooling, customers service run on shared physical hardware for the save of the cost.
+2. Physical resources are shared between customers.
+3. The cloud’s backbone decides which physical resource to allocate for a customer’s virtual services
+4. Some advanced cloud services allow for physical resource separation.
 
 4. Rapid Elasticity:
-•	Resources can be scaled up and down as needed, automatically.
-•	No need to purchase resources for a one-time peak scenario.
+1. Resources can be scaled up and down as needed, automatically.
+2. 	No need to purchase resources for a one-time peak scenario.
   
 5. Pay-per-use Pricing:
-•	Payment is done only for resources actually used. such as, Server time / DB storage / Function calls etc.
-•	Payment method for cloud computing those charges based on uses.
-•	Server time by the second.
-•	No need to invest money in non-used resources.
+1. Payment is done only for resources actually used. such as, Server time / DB storage / Function calls etc.
+2. Payment method for cloud computing those charges based on uses.
+3. Server time by the second.
+4. No need to invest money in non-used resources.
 
 6. Monitoring:
-We can monitor our services and billing etc.
+   We can monitor our services and billing etc.
 
 # Types of Clouds:
 
 1. Public Cloud:
-•	The Public cloud is a subscription base service that offered to any and all customers who want similar services.
-•	The cloud is set up in the public network.
-•	Managed by large companies.
-•	Accessible through the internet.
-•	Available to all clients and users.
-•	Clients have no access to underlying infrastructure.
+   •	The Public cloud is a subscription base service that offered to any and all customers who want similar services.
+   •	The cloud is set up in the public network.
+   •	Managed by large companies.
+   •	Accessible through the internet.
+   •	Available to all clients and users.
+   •	Clients have no access to underlying infrastructure.
 
 2. Private Cloud:
 •	A cloud set up in an organization’s premises
@@ -141,33 +138,32 @@ We can monitor our services and billing etc.
 
 3. Hybrid Cloud:
 It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other.
-
 •	A cloud set up in an organization’s premises… but also connected to the public cloud.
 •	Workload can be separated between the two clouds
-•	i.e. Sensitive data in the organization’s premises, public data in the public cloud.
+	i.e. Sensitive data in the organization’s premises, public data in the public cloud.
 •	Usually managed by the public cloud, but not always.
 
 4. Community Cloud:
-• It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
+   • It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
 
 
 # Types of Cloud Services:
 
 1. IaaS (Infrastructure as a Service):
-• The cloud provides Provide the underlying platform:
-  Compute
-  Networking
-  Storage
-• The client handles, and is responsible for all the rest.  
-    Most common example: Virtual Machines (Instances).
-• The cloud provides the host machine, networking and disks.
-• The client creates the virtual (guest) machine, installs software on it, patches it, maintains it etc.    
+   • The cloud provides Provide the underlying platform:
+   Compute
+   Networking
+   Storage
+   • The client handles, and is responsible for all the rest.
+   Most common example: Virtual Machines (Instances).
+   • The cloud provides the host machine, networking and disks.
+   • The client creates the virtual (guest) machine, installs software on it, patches it, maintains it etc.    
 
 2. PaaS (Platform as a Service):
 The cloud Providers provides platform for running apps:
 •	Including: Compute, networking, storage, runtime environment, scaling, redundancy, security, updates, patching, maintenance etc.
 •	The client just needs to bring the code to run.
-    Most common example: (Azure: Web Apps), (AWS: Elastic Beanstalk)
+Most common example: (Azure: Web Apps), (AWS: Elastic Beanstalk)
 •	The cloud Providers provides the runtime for running web application.
 •	The client uploads the code, and it just runs.
 •	The client has no access to the underlying virtual machines.
