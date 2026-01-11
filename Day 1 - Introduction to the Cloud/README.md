@@ -136,17 +136,13 @@ In the cloud area… If you need a server, you can:
    The cloud provider provides the underlying infrastructure, including: Compute, Networking, Storage.
 
 
-   The client is responsible for: Operating System, Middleware, Runtime, Applications, Data.
-   Most common example: Virtual Machines (VMs / Instances)
+   The client is responsible for: Operating System, Middleware, Runtime, Applications, Data. Most common example: Virtual Machines (VMs / Instances)
    
 3. PaaS (Platform as a Service):
    The cloud provider provides a platform for running applications, including: Compute. Networking, Storage, Runtime environment, Scaling, Redundancy, Security, Updates, patching, and maintenance.
    
-   The client only needs to bring the application code.
-   
-   Most common examples:
-   Azure: Web Apps (Azure App Service)
-   AWS: Elastic Beanstalk
+   The client only needs to bring the application code. Most common examples:
+   In Azure: Web Apps (Azure App Service) and In AWS: Elastic Beanstalk
    
    In PaaS:
    The cloud provider manages the runtime and infrastructure required to run the web application.
@@ -157,5 +153,4 @@ In the cloud area… If you need a server, you can:
 5. SaaS (Software as a Service): A software application that runs completely in the cloud. The user does not need to install anything on-premises or on their local machine. The software provider takes care of updates, patches, scalability, redundancy, security, and maintenance.
 
    Common SaaS examples:
-   Microsoft 365
-   Salesforce
+   Microsoft 365 Or Salesforce
