@@ -22,8 +22,7 @@ Problems with this approach:
 4. Difficult to scale when users increased
 
 # What is Cloud?
-Compute, Networking, Storage and other services Managed by SOMEONE ELSE.
-"The cloud" refers to a network of remote servers that store and manage data, run applications, and deliver content and services over the internet.
+Compute, Networking, Storage and other services Managed by SOMEONE ELSE.The cloud refers to a network of remote servers that store and manage data, run applications, and deliver content and services over the internet.
 Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time
 with an internet connection. Such as Server, Network, Storage, Database, Application and services. In the cloud, we stop thinking about Infrastructure like Hardware and use
 it as a Software.
@@ -119,39 +118,26 @@ In the cloud area… If you need a server, you can:
 
 # Types of Clouds:
 
-1. Public Cloud:
-   The Public cloud is a subscription base service that offered to any and all customers who want similar services.
-   The cloud is set up in the public network.
-   Managed by large companies.
-   Accessible through the internet.
-   Available to all clients and users.
-   Clients have no access to underlying infrastructure.
+1. Public Cloud: The Public cloud is a subscription base service that offered to any and all customers who want similar services. The cloud is set up in the public network and Managed by large companies. it is Accessible through the internet and Available to all clients and users. However, Clients have no access to underlying infrastructure.
 
-2. Private Cloud:
-   A cloud set up in an organization’s premises
-   Managed by the organization’s IT team
-   Accessible only in the organization’s network
-   Available to users from the organizations
-   Uses private cloud infrastructure and engines
-   Contains a subset of the public cloud’s capabilities
+3. Private Cloud:
+   A cloud set up in an organization’s premises and Managed by the organization’s IT team. private cloud is Accessible only in the organization’s network and Available to users from the organizations.
 
-3. Hybrid Cloud: It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other.
-   A cloud set up in an organization’s premises… but also connected to the public cloud.
-   Workload can be separated between the two clouds
-   i.e. Sensitive data in the organization’s premises, public data in the public cloud.
+4. Hybrid Cloud: It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other. Hybrid Cloud set up in an organization’s premises… but also connected to the public cloud. Workload can be separated between the two clouds
+    i.e. Sensitive data in the organization’s premises, public data in the public cloud.
    Usually managed by the public cloud, but not always.
 
-4. Community Cloud:
+6. Community Cloud:
    It refers to a shared cloud computing service environment that is targeted to a limited set of organization or employees. Such as Bank of head off trading firms. 
 
 
 # Types of Cloud Services:
 1. IaaS (Infrastructure as a Service):
-   The cloud provider provides the underlying infrastructure, including:
-   Compute
-   Networking
-   Storage
+   The cloud provider provides the underlying infrastructure, including: Compute, Networking, Storage.
+
+
    The client is responsible for:
+   
    Operating System
    Middleware
    Runtime
@@ -159,17 +145,11 @@ In the cloud area… If you need a server, you can:
    Data
    Most common example: Virtual Machines (VMs / Instances)
    
-2. PaaS (Platform as a Service):
-   The cloud provider provides a platform for running applications, including:
-   Compute
-   Networking
-   Storage
-   Runtime environment
-   Scaling
-   Redundancy
-   Security
-   Updates, patching, and maintenance
+3. PaaS (Platform as a Service):
+   The cloud provider provides a platform for running applications, including: Compute. Networking, Storage, Runtime environment, Scaling, Redundancy, Security, Updates, patching, and maintenance.
+   
    The client only needs to bring the application code.
+   
    Most common examples:
    Azure: Web Apps (Azure App Service)
    AWS: Elastic Beanstalk
@@ -179,10 +159,8 @@ In the cloud area… If you need a server, you can:
    The client does not have access to the underlying virtual machines.
 
 
-3. SaaS (Software as a Service):
-   A software application that runs completely in the cloud.
-   The user does not need to install anything on-premises or on their local machine.
-   The software provider takes care of updates, patches, scalability, redundancy, security, and maintenance.
+5. SaaS (Software as a Service): A software application that runs completely in the cloud. The user does not need to install anything on-premises or on their local machine. The software provider takes care of updates, patches, scalability, redundancy, security, and maintenance.
+
    Common SaaS examples:
    Microsoft 365
    Salesforce
