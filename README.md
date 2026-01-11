@@ -9,7 +9,7 @@ Day-2: Azure account creation
 
 We will create a Microsoft Azure account, explore the Azure Portal, and discuss free-tier benefits and best practices.
 
-Day-3: Basic Concepts of Azure
+Day-3: Basic Concepts of Azure Cloud
 
 We will cover core Azure concepts such as management groups, subscriptions, Resource Group(RG) and Resources.
 
