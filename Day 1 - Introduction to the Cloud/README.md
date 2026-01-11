@@ -22,7 +22,7 @@ Problems with this approach:
 4. Difficult to scale when users increased
 
 # What is Cloud?
-Compute, Networking, Storage and other services Managed by SOMEONE ELSE.The cloud refers to a network of remote servers that store and manage data, run applications, and deliver content and services over the internet.
+Compute, Networking, Storage and other services Managed by SOMEONE ELSE. The cloud refers to a network of remote servers that store and manage data, run applications, and deliver content and services over the internet.
 Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time
 with an internet connection. Such as Server, Network, Storage, Database, Application and services. In the cloud, we stop thinking about Infrastructure like Hardware and use
 it as a Software.
@@ -136,13 +136,7 @@ In the cloud area… If you need a server, you can:
    The cloud provider provides the underlying infrastructure, including: Compute, Networking, Storage.
 
 
-   The client is responsible for:
-   
-   Operating System
-   Middleware
-   Runtime
-   Applications
-   Data
+   The client is responsible for: Operating System, Middleware, Runtime, Applications, Data.
    Most common example: Virtual Machines (VMs / Instances)
    
 3. PaaS (Platform as a Service):
@@ -153,6 +147,7 @@ In the cloud area… If you need a server, you can:
    Most common examples:
    Azure: Web Apps (Azure App Service)
    AWS: Elastic Beanstalk
+   
    In PaaS:
    The cloud provider manages the runtime and infrastructure required to run the web application.
    The client uploads the code, and the application runs automatically.
