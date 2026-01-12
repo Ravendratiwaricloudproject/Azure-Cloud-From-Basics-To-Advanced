@@ -12,11 +12,12 @@ Day-3: Basic Concepts of Azure Cloud
 
 We will cover core Azure concepts such as management groups, subscriptions, Resource Group(RG) and Resources.
 
-Day-4: ARM(Azure Resource Manager), Resource Group(RG) And Resources
+Day-4: ARM (Azure Resource Manager), Resource Group(RG) And Resources
 
 We will understand how Azure manages resources, what ARM is, how resource groups work, and how resources are organized and deployed and will will have demo as well.
 
 Day-5: Azure Networking
+
 We will learn Azure networking fundamentals such as: VNets, subnets, subnet mask, subnetting, Route, Route Table, NSG & ASG, Bastion, Firewall, IP, addressing, IP address classes, etc.
 
 Day-6: Azure Virtual Machine (VM)
