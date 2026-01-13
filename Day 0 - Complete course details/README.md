@@ -45,9 +45,9 @@ Day-11: Basic Concept Of Azure Networking Resources
 
       3. Azure Service Endpoint
 
-Day-12: VPN/Azure Virtual Network Gateway/Azure VPN Gateway
+Day-12: Virtual Network Gateway
 
-* Real time demo using Azure Point-to-Site VPN
+We will have Real time demo using Azure Point-to-Site VPN
 
 Day-13: Azure Virtual Network Peering
 
