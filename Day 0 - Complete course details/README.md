@@ -31,8 +31,9 @@ Day-8: Azure Virtual Machine Scale Set (VMSS)
 
 We will learn how VM Scale Sets help with high availability and auto-scaling for virtual machines.
 
-Day-9: Azure Load Balancer
-We will understand Azure Load Balancer and perform a real-time demo to see how it distributes traffic across backend resources.
+Day-9: Azure Load Balancer:
+
+ We will understand Azure Load Balancer and perform a real-time demo to see how it distributes traffic across backend resources.
 
 Day-10: Application Gateway (Layer-7 Load Balancer)
 We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
