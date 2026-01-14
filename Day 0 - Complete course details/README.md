@@ -24,19 +24,21 @@ Day-6: Azure Virtual Machine (VM)
 
 We will create and manage Azure virtual machines, understand VM types, disks, networking, and real-world use cases.
 
-Day-7: Azure Update Manager.
-We will use  Azure Update Manager service and we will see how to manage OS updates and patching in Azure VMs, including manual and automated patching approaches.
+Day-7: Azure Update Manager
+
+ We will use  Azure Update Manager service and we will see how to manage OS updates and patching in Azure VMs, including manual and automated patching approaches.
 
 Day-8: Azure Virtual Machine Scale Set (VMSS)
 
 We will learn how VM Scale Sets help with high availability and auto-scaling for virtual machines.
 
-Day-9: Azure Load Balancer:
+Day-9: Azure Load Balancer
 
  We will understand Azure Load Balancer and perform a real-time demo to see how it distributes traffic across backend resources.
 
 Day-10: Application Gateway (Layer-7 Load Balancer)
-We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
+
+ We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
 
 Day-11: Basic Concept Of Azure Networking Resources
 
