@@ -2,7 +2,7 @@
 
 Day-1: Introduction to the Cloud
 
-We will understand what the cloud is, what cloud computing means, why it’s needed, the scenario before the cloud, cloud service models (IaaS, PaaS, SaaS), and cloud deployment models such as public, private, and hybrid clouds. we will also understand about Region and Availability zone(AZ)
+We will understand what the cloud is, what cloud computing means, why it’s needed, the scenario before the cloud, cloud service models (IaaS, PaaS, SaaS), and cloud deployment models such as public, private, hybrid, and Community Cloud clouds. we will also understand about Region and Availability zone(AZ)
 
 Day-2: Azure account creation
 
