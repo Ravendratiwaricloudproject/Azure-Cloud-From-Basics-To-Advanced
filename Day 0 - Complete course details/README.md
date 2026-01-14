@@ -14,7 +14,6 @@ We will cover core Azure concepts such as management groups, subscriptions, Reso
 
 Day-4: ARM (Azure Resource Manager), Resource Group(RG) And Resources
 
-We will understand how Azure manages resources, what ARM is, how resource groups work, and how resources are organized and deployed and will will have demo as well.
 
 Day-5: Azure Networking
 
