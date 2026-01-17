@@ -86,6 +86,7 @@ Day-29: Azure Logic APPs
 Day-30: Azure Automation Account
 
 Day-31: Messaging in Azure
+
 We will have seperate Video for each messaging services:
    * Storage Queue
    * Service Bus
@@ -93,6 +94,7 @@ We will have seperate Video for each messaging services:
    * Event Hubs
 
 Day-32: Monitoring in Azure
+
 We will have seperate Video for each  Monitoring services in very detail:
    * Azure Monitor
    * Azure Microsoft Defender- (Security alerts and incidents)
