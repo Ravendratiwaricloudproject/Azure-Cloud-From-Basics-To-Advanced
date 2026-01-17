@@ -56,12 +56,8 @@ Types of IP Address:
 2. IPv6 (128 bits)
 
 Types of IPv4 Address:
-1. Private IP Address
-2. Public IP Address
 
-Type of IPv4 Address:
-
-(1) Private IP
+(1) Private IP  Address
 • It is work at LAN
 • It is used to communicate within the same network
 • It is available free of cost
@@ -72,7 +68,7 @@ Type of IPv4 Address:
    172.16.0.0 – 172.31.255.255
    192.168.0.0 – 192.168.255.255
 
-(2) Public IP
+(2) Public IP  Address
 •	It is work at WAN
 •	It is used to communicate outside the network
 •	It is used to get internet service
@@ -82,9 +78,13 @@ Type of IPv4 Address:
 
 # Types of IP Address Class:
 Class A: 1-126 (Large networks, first octet for network, remaining three for hosts)
+
 Class B:	128-191 (Medium-sized networks, first two octets for network, remaining two for hosts)
+
 Class C:	192-223 (Small networks, first three octets for network, last octet for hosts)
+
 Class D:	224-239 (Multicast addressing, used to send data to multiple devices simultaneously)
+
 Class E: 240-255 (Reserved for experimental purposes)
 
 # What is Subnet?
