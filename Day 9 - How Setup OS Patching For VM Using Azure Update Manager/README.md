@@ -21,25 +21,16 @@ Feature updates – add or enhance OS capabilities
 
 OS patching is required for several reasons:
 
-1. Security:
-Protects systems from known vulnerabilities and cyberattacks
-Reduces the risk of malware, ransomware, and unauthorized access
+1. Security: Protects systems from known vulnerabilities and cyberattacks. Reduces the risk of malware, ransomware, and unauthorized access.
 
-2. Stability & Reliability:
-Fixes bugs that may cause crashes or system failures
-Ensures applications run smoothly
+2. Stability & Reliability: Fixes bugs that may cause crashes or system failures and Ensures applications run smoothly.
 
-3. Compliance:
-Required for many standards (ISO, SOC, PCI-DSS, etc.)
-Helps meet organizational and regulatory requirements
+3. Compliance: Required for many standards (ISO, SOC, PCI-DSS, etc.). Helps meet organizational and regulatory requirements.
 
-4. Performance:
-Improves OS efficiency and resource usage
+4. Performance: Improves OS efficiency and resource usage.
 
-5. Supportability:
-Keeps systems within vendor-supported versions
-Ensures compatibility with newer applications and services
+5. Supportability: Keeps systems within vendor-supported versions. Ensures compatibility with newer applications and services.
 
- In short: OS patching keeps systems secure, stable, compliant, and up to date.
+ # In short: OS patching keeps systems secure, stable, compliant, and up to date.
 
 
