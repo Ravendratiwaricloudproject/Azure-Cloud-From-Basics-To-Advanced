@@ -119,4 +119,4 @@ Note: We will have seperate video for Azure Bicep
 
 Day-39: Azure DevOps
 
-Note: We will have seperate video for Azure Bicep
+Note: We will have seperate video for Azure DevOps
