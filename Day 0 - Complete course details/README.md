@@ -47,7 +47,7 @@ Day-13: Azure Service Endpoint
 
 Day-14: Virtual Network Gateway
 
-We will have Real time demo using Azure Point-to-Site VPN
+We will have real time demo using “Azure VPN Gateways” it is a type of Virtual network Gateway.
 
 Day-15: Azure Virtual Network Peering
 
