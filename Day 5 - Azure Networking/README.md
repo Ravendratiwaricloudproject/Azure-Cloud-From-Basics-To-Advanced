@@ -44,15 +44,24 @@ Data could reach the wrong device
 Communication over a network wouldn’t work
 
 Types of Addressing:
-1. Physical Addressing: MAC Address (48 bits)
-2. Logical Addressing: IP Address
+1. Physical Addressing: It is a MAC Address (48 bits)
+2. Logical Addressing: It is a IP Address
 
 # What is IP (Internet protocol)?
 • IP is a Logical address comprises of ‘4’ octet and each octet is differentiated by dot (.)
 • IP address is used to provide communication between device over the internet.
 
+Types of IP Address:
+1. IPv4 (32 bits)
+2. IPv6 (128 bits)
+
+Types of IPv4 Address:
+1. Private IP Address
+2. Public IP Address
+
 Type of IPv4 Address:
-(1)	Private IP
+
+(1) Private IP
 • It is work at LAN
 • It is used to communicate within the same network
 • It is available free of cost
@@ -63,7 +72,7 @@ Type of IPv4 Address:
    172.16.0.0 – 172.31.255.255
    192.168.0.0 – 192.168.255.255
 
-(2)	Public IP
+(2) Public IP
 •	It is work at WAN
 •	It is used to communicate outside the network
 •	It is used to get internet service
@@ -71,16 +80,8 @@ Type of IPv4 Address:
 •	Public IP is not secure
 •	It is not required NAT to communicate with device on internet
 
-Types of IP Address:
-1. IPv4 (32 bits)
-2. IPv6 (128 bits)
-
-Types of IPv4 Address:
-1. Private IP Address
-2. Public IP Address
-
 # Types of IP Address Class:
-Class A: 	1-126 (Large networks, first octet for network, remaining three for hosts)
+Class A: 1-126 (Large networks, first octet for network, remaining three for hosts)
 Class B:	128-191 (Medium-sized networks, first two octets for network, remaining two for hosts)
 Class C:	192-223 (Small networks, first three octets for network, last octet for hosts)
 Class D:	224-239 (Multicast addressing, used to send data to multiple devices simultaneously)
@@ -115,14 +116,13 @@ In Azure VNet, a "route" is a rule within a route table that determines where ne
 •	Should be a standard part of Subnet creation
  How NSG work:
 Looks at 5 tuples:
-•	Source (=Where did the connection come from)
-•	Source Port (=The port the source is using)
-•	Destination (=Where does the connection request goes)
-•	Destination Port (=To which port does it want to connect)
-•	Protocol (=TCP, UDP, Both) 
+•	Source = Where did the connection come from
+•	Source Port = The port that source is using
+•	Destination = Where does the connection request goes
+•	Destination Port = To which port does it want to connect
+•	Protocol = TCP, UDP, OR  Both
 
-•	Based on these 5 tuples the connection is either allowed or denied
-•	This is called Security Rule
+Note:	Based on these 5 tuples the connection is either allowed or denied This is called Security Rule
 
 •	Each rule is assigned a number
 •	The lower the number – the higher the priority of the rule
@@ -142,7 +142,9 @@ In Azure, an Application Security Group (ASG) is a network security feature that
 A firewall is a network security service that stands guard at the door of our network, protecting our resources from malicious internet traffic. It is used to monitor and control all incoming and outgoing traffic based on predefined rules. 
  
 
-# How to Secure VM Access? 
+# How to VM Access securely? 
+
+Note:   we have  following option to securely access the VM. 
  
 1.	JIT Access(Just In Time Access):
 •	Opens the port for access on demand, and automatically closes it
@@ -150,7 +152,7 @@ A firewall is a network security service that stands guard at the door of our ne
 •	Can be configured from the VM’s page in the portal
 •	Requires Security Center License Upgrade
 
- 2.	VPN(Virtual private network):
+2. VPN (Virtual private network):
 •	In Azure, “Azure VPN Gateway” is a VPN service which is a type of Virtual network Gateway.
 •	A secure tunnel to the VNet
 •	Can be configured so that no one else can connect to the VNet
