@@ -124,6 +124,7 @@ In Azure, Saving Plans are a flexible pricing model, that offers low prices on A
 •	Relevant mainly for test / dev machines
 
 •	Storage and IP (if static) costs still incurred
+
 •	Can save  50% of VM cost
 
 5.	Select the right size for your machine
