@@ -25,7 +25,6 @@ We will cover the theory part related to Azure Virtual Machines.
 
 Day-7: Azure Linux Virtual Machine (VM)
 
-We will create and configure Azure virtual machines, and host web server base on the real-world use cases.
 
 Day-8: Azure Windows Virtual Machine (VM)
 
