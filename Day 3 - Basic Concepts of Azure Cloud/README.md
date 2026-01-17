@@ -18,7 +18,7 @@ Each subscription has limits or quotas on the number of resources it can use.
 
 Organizations use subscriptions to manage costs and allocate resources for users, teams, or projects.
 
-Tip: Think of subscriptions as containers that help organize billing and usage.
+Tip: Think of subscriptions as containers that help to organize billing and usage.
 
 3. Resource Groups
 
