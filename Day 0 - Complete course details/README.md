@@ -17,7 +17,7 @@ Day-4: ARM (Azure Resource Manager), Resource Group(RG) And Resources
 
 Day-5: Azure Networking
 
-We will learn Azure networking fundamentals such as: VNets, subnets, subnet mask, subnetting, Route, Route Table, NSG & ASG, Bastion, Firewall, IP, addressing, IP address classes, etc.
+We will learn Azure networking fundamentals such as: VNets, addressing, IP, IP address classes, subnets, subnet mask, subnetting, Route, Route Table, NSG & ASG, Bastion, Firewall, etc.
 
 Day-6: Azure Virtual Machine (VM)
 
@@ -39,55 +39,55 @@ Day-10: Application Gateway (Layer-7 Load Balancer)
 
  We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
 
-Day-11: Basic Concept Of Azure Networking Resources
+Day-11: Azure NAT gateway
 
-      1.  Azure NAT gateway
+Day-12: Azure Private Endpoint
 
-      2.  Azure Private Endpoint
+Day-13: Azure Service Endpoint
 
-      3. Azure Service Endpoint
-
-Day-12: Virtual Network Gateway
+Day-14: Virtual Network Gateway
 
 We will have Real time demo using Azure Point-to-Site VPN
 
-Day-13: Azure Virtual Network Peering
+Day-15: Azure Virtual Network Peering
 
-Day-14: Identity management with AD (Entra ID)
+Day-16: Identity management (Entra ID)
 
-Day-15: Basic concept of Azure Data and Database
+Day-17: Basic concept of Azure Data and Database
 
-Day-16: Azure Storage(Data)
+Day-18: Azure Storage(Data)
 
-   * Azure storage account
+We will learn Azure storage account in very detail.
 
-Day-17: Relational Database Service- Azure MYSQL DB
+Day-19: Relational Database Service- Azure MYSQL DB
 
-Day-18: Relational Database Service- Azure MSSQL DB
+Day-20: Relational Database Service- Azure MSSQL DB
 
-Day-19: Non-relational (NoSQL)- Azure Cosmos DB
+Day-21: Non-relational (NoSQL)- Azure Cosmos DB
 
-Day-20: Non-relational (NoSQL)- Azure Redis
+Day-22: Non-relational (NoSQL)- Azure Redis
 
-Day-21: Azure CLI
+Day-23: Azure CLI
 
-Day-22: ARM Template (Azure Resource Manager Template)
+Day-24: ARM Template (Azure Resource Manager Template)
 
-Day-23: Azure App Service
+Day-25: Azure App Service
 
-Day-24: Azure Function
+Day-26: Azure Function
 
-Day-25: Azure Logic APPs
+Day-27: Azure Logic APPs
 
-Day-26: Azure Automation Account
+Day-28: Azure Automation Account
 
-Day-27: Messaging in Azure
+Day-29: Messaging in Azure
+We will have seperate Video for each messaging services:
    * Storage Queue
    * Service Bus
    * Events Grid
    * Event Hubs
 
-Day-28: Monitoring in Azure
+Day-30: Monitoring in Azure
+We will have seperate Video for each  Monitoring services in very detail:
    * Azure Monitor
    * Azure Microsoft Defender- (Security alerts and incidents)
    * Activity Log
@@ -95,22 +95,18 @@ Day-28: Monitoring in Azure
    * Insights
    * Diagnostic Settings
 
-Day-29: Azure Traffic Manager
+Day-31: Azure Traffic Manager
 
-Day-30: Azure Front Door and CDN
+Day-32: Azure Front Door and CDN
 
-Day-31: Basic overview of Disaster Recovery (DR) in Azure
+Day-33: Azure Container Registry (ACR)
 
-  * Disaster Recovery of data in Azure
-  * Disaster Recovery of compute in Azure
+Day-34: Azure Kubernetes Service (AKS)
 
-Day-32: Azure Container Registry (ACR)
-
-Day-33: Azure Kubernetes Service (AKS)
-
-Day-34: Azure Key Vault - (Integration with AKS)
-
-Day-35: Azure DevOps
+Day-35: Azure Key Vault - (Integration with AKS)
 
 Day-36: Azure Bicep
+Note: We will have seperate video for Azure Bicep
+
+Day-37:Azure DevOps
 Note: We will have seperate video for Azure Bicep
