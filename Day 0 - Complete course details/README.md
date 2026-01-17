@@ -19,76 +19,80 @@ Day-5: Azure Networking
 
 We will learn Azure networking fundamentals such as: VNets, addressing, IP, IP address classes, subnets, subnet mask, subnetting, Route, Route Table, NSG & ASG, Bastion, Firewall, etc.
 
-Day-6: Azure Linux Virtual Machine (VM)
+Day-6: Basic Concepts of Azure Virtual Machines
 
-We will create and manage Azure virtual machines, understand VM types, disks, networking, and real-world use cases.
+We will cover the theory part related to Azure Virtual Machines.
 
-Day-7: Azure Windows Virtual Machine (VM)
+Day-7: Azure Linux Virtual Machine (VM)
 
-Day-8: Azure Update Manager
+We will create and configure Azure virtual machines, and host web server base on the real-world use cases.
 
- We will use  Azure Update Manager service and we will see how to manage OS updates and patching in Azure VMs, including manual and automated patching approaches.
+Day-8: Azure Windows Virtual Machine (VM)
 
-Day-9: Azure Virtual Machine Scale Set (VMSS)
+Day-9: Azure Update Manager
+
+ We will use Azure Update Manager service and we will see how to manage OS updates and patching in Azure VMs, including manual and automated patching approaches.
+
+Day-10: Azure Virtual Machine Scale Set (VMSS)
 
 We will learn how VM Scale Sets help with high availability and auto-scaling for virtual machines.
 
-Day-10: Azure Load Balancer
+Day-11: Azure Load Balancer
 
  We will understand Azure Load Balancer and perform a real-time demo to see how it distributes traffic across backend resources.
 
-Day-11: Application Gateway (Layer-7 Load Balancer)
+Day-12: Application Gateway (Layer-7 Load Balancer)
 
  We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
 
-Day-12: Azure NAT (Network Address Translation) gateway
+Day-13: Azure NAT (Network Address Translation) gateway
 
-Day-13: Azure Private Endpoint
+Day-14: Azure Private Endpoint
 
-Day-14: Azure Service Endpoint
+Day-15: Azure Service Endpoint
 
-Day-15: Virtual Network Gateway
+Day-16: Virtual Network Gateway
 
 We will have real time demo using “Azure VPN Gateways” it is a type of Virtual network Gateway.
 
-Day-16: Azure Virtual Network Peering
+Day-17: Azure Virtual Network Peering
 
-Day-17: Identity management (Entra ID)
+Day-18: Identity management (Entra ID)
 
-Day-18: Basic concept of Azure Data and Database
+Day-19: Basic concept of Azure Data and Database
 
-Day-19: Azure Storage(Data)
+Day-20: Azure Storage(Data)
 
 We will learn Azure storage account in very detail.
 
-Day-20: Relational Database Service- Azure MYSQL DB
+Day-21: Relational Database Service- Azure MYSQL DB
 
-Day-21: Relational Database Service- Azure MSSQL DB
+Day-22: Relational Database Service- Azure MSSQL DB
 
-Day-22: Non-relational (NoSQL)- Azure Cosmos DB
+Day-23: Non-relational (NoSQL)- Azure Cosmos DB
 
-Day-23: Non-relational (NoSQL)- Azure Redis
+Day-24: Non-relational (NoSQL)- Azure Redis
 
-Day-24: Azure CLI
+Day-25: Azure CLI
 
-Day-25: ARM Template (Azure Resource Manager Template)
+Day-26: ARM Template (Azure Resource Manager Template)
 
-Day-26: Azure App Service
+Day-27: Azure App Service
 
-Day-27: Azure Function
+Day-28: Azure Function
 
-Day-28: Azure Logic APPs
+Day-29: Azure Logic APPs
 
-Day-29: Azure Automation Account
+Day-30: Azure Automation Account
 
-Day-30: Messaging in Azure
+Day-31: Messaging in Azure
 We will have seperate Video for each messaging services:
    * Storage Queue
    * Service Bus
    * Events Grid
    * Event Hubs
 
-Day-31: Monitoring in Azure
+Day-32: Monitoring in Azure
 We will have seperate Video for each  Monitoring services in very detail:
    * Azure Monitor
    * Azure Microsoft Defender- (Security alerts and incidents)
@@ -97,18 +101,18 @@ We will have seperate Video for each  Monitoring services in very detail:
    * Insights
    * Diagnostic Settings
 
-Day-32: Azure Traffic Manager
+Day-33: Azure Traffic Manager
 
-Day-33: Azure Front Door and CDN
+Day-34: Azure Front Door and CDN
 
-Day-34: Azure Container Registry (ACR)
+Day-35: Azure Container Registry (ACR)
 
-Day-35: Azure Kubernetes Service (AKS)
+Day-36: Azure Kubernetes Service (AKS)
 
-Day-36: Azure Key Vault - (Integration with AKS)
+Day-37: Azure Key Vault - (Integration with AKS)
 
-Day-37: Azure Bicep
+Day-38: Azure Bicep
 Note: We will have seperate video for Azure Bicep
 
-Day-38:Azure DevOps
+Day-39:Azure DevOps
 Note: We will have seperate video for Azure Bicep
