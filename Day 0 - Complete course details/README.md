@@ -114,5 +114,5 @@ Day-37: Azure Key Vault - (Integration with AKS)
 Day-38: Azure Bicep
 Note: We will have seperate video for Azure Bicep
 
-Day-39:Azure DevOps
+Day-39: Azure DevOps
 Note: We will have seperate video for Azure Bicep
