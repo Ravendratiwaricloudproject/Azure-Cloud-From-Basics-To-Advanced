@@ -40,33 +40,6 @@ To save costs when demand goes down and when minimum VMs quantity are needed.
 Your app is now seeing low traffic late at night, and CPU usage drops below 20%. The scale set removes 2 VMs → now you're running 3 VM instead of 5.
 
 
-# Virtual Machine Scale Sets the following key benefits:
-
-•	Easy to create and manage multiple VMs.
-
-•	Provides high availability and application resiliency by distributing VMs across availability zones or fault domains.
-
-•	Allows your application to automatically scale as resource demand changes.
-
-•	Works at large-scale.
-
-•	A group of separate VMs sharing the same image.
-
-•	Managed as a group.
-
-•	Can be scaled out or in manually or according to predefined conditions.
-
-•	Great for handling unpredictable load.
-
-•	Once set up, the machines should NOT be modified.
-
-•	We can Change files, install apps etc.
-
-•	New machines created by the scale set will be based on the original image.
-
-•	VMSS can automatically increase or decrease the number of VM instances based on CPU usage, memory, disk I/O, or other custom metrics.
-
-•	Scale sets can be integrated with Azure Load Balancer or Azure Application Gateway to distribute traffic across all instances.
 
 ##########################################################################################################################################
 Action        Description	                   Goal
@@ -135,6 +108,34 @@ You scale the VM down from:
 32 GB RAM → 8 GB RAM
 
 Now Same VM, just smaller and cheaper.
+
+# Benefits of the Virtual Machine Scale Sets:
+
+•	Easy to create and manage multiple VMs.
+
+•	Provides high availability and application resiliency by distributing VMs across availability zones or fault domains.
+
+•	Allows your application to automatically scale as resource demand changes.
+
+•	Works at large-scale.
+
+•	A group of separate VMs sharing the same image.
+
+•	Managed as a group.
+
+•	Can be scaled out or in manually or according to predefined conditions.
+
+•	Great for handling unpredictable load.
+
+•	Once set up, the machines should NOT be modified.
+
+•	We can Change files, install apps etc.
+
+•	New machines created by the scale set will be based on the original image.
+
+•	VMSS can automatically increase or decrease the number of VM instances based on CPU usage, memory, disk I/O, or other custom metrics.
+
+•	Scale sets can be integrated with Azure Load Balancer or Azure Application Gateway to distribute traffic across all instances.
 
 
 # Virtual Machine Scale Sets Pricing:
