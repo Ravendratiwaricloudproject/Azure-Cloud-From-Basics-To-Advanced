@@ -40,14 +40,6 @@ To save costs when demand goes down and when minimum VMs quantity are needed.
 Your app is now seeing low traffic late at night, and CPU usage drops below 20%. The scale set removes 2 VMs → now you're running 3 VM instead of 5.
 
 
-
-##########################################################################################################################################
-Action        Description	                   Goal
-Scale Out	    Add more VMs	            Handle more load
-Scale In	    Remove VMs	             Save cost on low usage
-##########################################################################################################################################
-
-
 # What is Vertical Scaling (Scale Up / Scale Down)?
 
 Vertical scaling means increasing or decreasing the size (power) of a single virtual machine instead of changing the number of VMs.
