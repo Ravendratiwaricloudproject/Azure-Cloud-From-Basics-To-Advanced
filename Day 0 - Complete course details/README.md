@@ -147,30 +147,38 @@ We will learn each Monitoring services in very detail:
    * Insights
    * Diagnostic Settings
 
-Day-34: Azure Front Door and CDN
+Day-34: Azure DNS(Domain Name System)
+
+We will learn following DNS services:
+
+   • Azure Public DNS
+   • Azure Private DNS
+   • Azure App Service custom domain
+   • Azure Traffic Manager
+
+Day-35: Azure Front Door and CDN
 
 We will learn Azure Front Door and CDN content delivery services.
 
-Day-35: Azure Container Registry (ACR)
+Day-36: Azure Container Registry (ACR)
 
 We will store and manage container images using ACR.
 
-Day-36: Azure Kubernetes Service (AKS)
+Day-37: Azure Kubernetes Service (AKS)
 
 We will deploy and manage containerized applications using AKS.
 
-Day-37: Azure Key Vault
+Day-38: Azure Key Vault
 
 We will secure secrets and integrate Key Vault with AKS.
-
-Day-38: Azure Bicep
-
-We will implement Infrastructure as Code using Azure Bicep.
-
-Note: We will have seperate video for Azure Bicep.
 
 Day-39: Azure DevOps
 
 We will learn CI/CD pipelines, repositories, and automation using Azure DevOps.
 
-Note: We will have seperate video for Azure DevOps.
+Day-40: Azure Bicep
+
+We will implement Infrastructure as Code using Azure Bicep.
+
+Note: We will have seperate video for Azure Bicep.
+
