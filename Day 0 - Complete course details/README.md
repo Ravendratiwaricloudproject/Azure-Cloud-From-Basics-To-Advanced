@@ -152,8 +152,11 @@ Day-34: Azure DNS(Domain Name System)
 We will learn following DNS services:
 
    • Azure Public DNS
+   
    • Azure Private DNS
+   
    • Azure App Service custom domain
+   
    • Azure Traffic Manager
 
 Day-35: Azure Front Door and CDN
@@ -178,7 +181,7 @@ We will learn CI/CD pipelines, repositories, and automation using Azure DevOps.
 
 Day-40: Azure Bicep
 
-We will implement Infrastructure as Code using Azure Bicep.
+We will create resources using Azure Bicep.
 
 Note: We will have seperate video for Azure Bicep.
 
