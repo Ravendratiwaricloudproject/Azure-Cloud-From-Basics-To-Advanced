@@ -79,7 +79,7 @@ Day-19: Identity management (Entra ID)
 
 We will learn Azure Entra ID concepts like users, groups, RBAC, and authentication.
 
-Day-20: Basic concept Azure Storage(Data)
+Day-20: Basic concept of Azure Storage(Data)
 
 We will learn Azure storage account in very detail.
 
