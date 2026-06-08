@@ -132,6 +132,33 @@
   - Step-7: Create Azure storage account with container for testing.
 
   - Step-8:  Create EventGrid Subscription for storage account.
+ 
+  - Azure CLI commands to create eventgrid subscription (single line):
+
+  az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction -- endpoint "<function-resource-id>" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+
+Example:
+
+az eventgrid event-subscription create --name egsub02 --source-resource-id "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Storage/storageAccounts/<storage>" --endpoint-type azurefunction --endpoint "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Web/sites/<functionapp>/functions/EventGridBlobTrigger" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+  
+  
+PowerShell version:
+
+az eventgrid event-subscription create `
+  --name <event-subscription-name> `
+  --source-resource-id "<storage-account-resource-id>" `
+  --endpoint-type azurefunction `
+  --endpoint "<function-app-function-resource-id>" `
+  --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+
+Example:
+
+az eventgrid event-subscription create `
+  --name egsub02 `
+  --source-resource-id "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Storage/storageAccounts/<storage>" `
+  --endpoint-type azurefunction `
+  --endpoint "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Web/sites/<functionapp>/functions/EventGridBlobTrigger" `
+  --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
 
   - Step-9: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
           
