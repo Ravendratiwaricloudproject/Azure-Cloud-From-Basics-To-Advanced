@@ -39,10 +39,11 @@
   
   1. Create one Folder with any name in you Local PC.
 
-  2. In Visual Studio Code, press "fn + F1" OR you can press "ctrl + shift + p" to open the command palette, enter and select
-   Azure Functions: Create new project
+  2. Search for VS code in your Local PC and open new Folder in you VS code.
+     In Visual Studio Code, press "fn + F1" OR you can press "ctrl + shift + p" to open the command palette, enter and select
+     Azure Functions: Create new project
 
-  3. For your project workspace, select a directory Name and location. Make sure that you either create a new folder or choose an empty folder for the project workspace.
+  4. For your project workspace, select a directory Name and location. Make sure that you either create a new folder or choose an empty folder for the project workspace.
 
   - Don't choose a project folder that's already part of a workspace.
 
