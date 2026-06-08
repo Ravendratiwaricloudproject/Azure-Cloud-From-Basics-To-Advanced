@@ -127,7 +127,7 @@
 
                python -m pip install -r requirements.txt
 
-  - Step-6: - Login to Azure portal and Create Resource Group and Function App, Azure Email Communication Service and Azure Communication Service.
+  - Step-6: - Login to Azure portal and Create Resource Group and Function App, Azure Communication Service and Azure Email Communication Service.
 
   - Step-7: Create Azure storage account with container for testing.
 
