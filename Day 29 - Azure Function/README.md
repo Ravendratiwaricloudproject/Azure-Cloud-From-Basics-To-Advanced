@@ -33,7 +33,7 @@
 - Pylance → Advanced Python IntelliSense and type checking
 
 - Note: Make sure you install all the extensions provided by Microsoft.
-##################################################################################################################################
+#################################################################################################
 
 # Option-1: Go back to VS code and create Azure function locally with Event Grid trigger:
   
@@ -135,16 +135,16 @@
  
   - Azure CLI commands to create eventgrid subscription (single line):
 
-  az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction -- endpoint "<function-resource-id>" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+  # az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction -- endpoint "<function-resource-id>" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
 
 Example:
 
-az eventgrid event-subscription create --name egsub02 --source-resource-id "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Storage/storageAccounts/<storage>" --endpoint-type azurefunction --endpoint "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Web/sites/<functionapp>/functions/EventGridBlobTrigger" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+# az eventgrid event-subscription create --name egsub02 --source-resource-id "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Storage/storageAccounts/<storage>" --endpoint-type azurefunction --endpoint "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Web/sites/<functionapp>/functions/EventGridBlobTrigger" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
   
   
-PowerShell version:
+- PowerShell version:
 
-az eventgrid event-subscription create `
+ # az eventgrid event-subscription create `
   --name <event-subscription-name> `
   --source-resource-id "<storage-account-resource-id>" `
   --endpoint-type azurefunction `
@@ -153,7 +153,7 @@ az eventgrid event-subscription create `
 
 Example:
 
-az eventgrid event-subscription create `
+# az eventgrid event-subscription create `
   --name egsub02 `
   --source-resource-id "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.Storage/storageAccounts/<storage>" `
   --endpoint-type azurefunction `
