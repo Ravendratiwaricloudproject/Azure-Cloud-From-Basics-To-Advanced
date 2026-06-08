@@ -134,14 +134,13 @@
   - Step-8:  Create EventGrid Subscription for storage account.
  
   - Azure CLI ( For Linux / macOS / Bash):
-
-    az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "<function-resource-id>" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+ 
+    az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "azurefunction Endpoint URL" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
     
 
-
-  - Azure CLI (Windows / PowerShell):
-
-    az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "<function-resource-id>" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+- Azure CLI (Windows / PowerShell):
+  
+az eventgrid event-subscription create --name <event-subscription-name> --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "azurefunction Endpoint URL" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
   
 
   - Step-9: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
