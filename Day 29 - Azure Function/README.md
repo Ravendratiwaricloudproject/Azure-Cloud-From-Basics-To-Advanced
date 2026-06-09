@@ -137,17 +137,17 @@
 
     * Microsoft.Communication
     
-    - What are the Resource providers?
+ - What are the Resource providers?
 
     - In an Azure subscription, resource providers are services that define and manage specific types of Azure resources. Before you can create a resource, the  corresponding resource provider must be registered in the subscription.
     
-    - Login to Azure Portal → Subscriptions → select your subscription → Resource providers → search the provider (e.g., Microsoft.Storage) → click Register → wait a few seconds until the status changes to Registered.
+- Login to Azure Portal → Subscriptions → select your subscription → Resource providers → search the provider (e.g., Microsoft.Storage) → click Register → wait a few seconds until the status changes to Registered.
   
   - Step-7: Create Resource Group and Function App, Azure Communication Service and Azure Email Communication Service.
 
-  - Step-7: Create Azure storage account with container for testing.
+  - Step-8: Create Azure storage account with container for testing.
 
-  - Step-8:  Create EventGrid Subscription for storage account.
+  - Step-9:  Create EventGrid Subscription for storage account.
  
   - Azure CLI ( For Linux / macOS / Bash):
  
@@ -159,7 +159,7 @@
 az eventgrid event-subscription create --name < event subscription name > --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "azurefunction Endpoint URL" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
   
 
-  - Step-9: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
+  - Step-10: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
           
           * ACS_CONNECTION_STRING: Value of the Azure communication service connection string.
 
@@ -167,11 +167,11 @@ az eventgrid event-subscription create --name < event subscription name > --sour
 
           * TO_EMAIL: Value of the email where we want to send notification.
 
-  - Step-10: Go to the test storage account and upload any file to the container to verify that the Event Grid triggers the Azure Function, and that the Azure Function invokes ACS to send an email notification.
+  - Step-11: Go to the test storage account and upload any file to the container to verify that the Event Grid triggers the Azure Function, and that the Azure Function invokes ACS to send an email notification.
   
   - Note: Team you can upload any file name such as-  .txt, .jpg, .pdf, anything.
 
-  # Now open your Email and check if you received notification.
+  - Step-12: Now open your Email and check if you received notification.
 
      
 
