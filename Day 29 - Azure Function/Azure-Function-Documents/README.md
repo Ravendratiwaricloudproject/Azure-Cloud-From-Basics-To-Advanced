@@ -208,6 +208,24 @@ Azure Functions supports a variety of programming languages, allowing developers
 
 Each language has its own set of features, libraries, and development tools, allowing developers to choose the best fit for their application requirements and existing skill set.
 
+# What is Durable Functions?
+Durable Functions is an extension of Azure Functions that lets you write stateful workflows in a serverless way.
+Normally, Azure Functions are stateless (each execution forgets everything). however, Durable Functions adds the ability to remember state, coordinate steps,
+and run long workflows reliably.
+
+With Durable Functions, you can:
+
+•	Chain multiple functions together
+
+•	Maintain state between steps
+
+•	Handle long-running processes (minutes, hours, even days)
+
+•	Automatically retry failed steps
+
+•	Wait for external events (like user input or approvals)
+
+
 # What is the difference between Azure Function App and Azure Function?
 
 The terms Azure Function and Azure Function App are closely related to each other, but they refer to different levels in the same service.
