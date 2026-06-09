@@ -127,7 +127,23 @@
 
                python -m pip install -r requirements.txt
 
-  - Step-6: - Login to Azure portal and Create Resource Group and Function App, Azure Communication Service and Azure Email Communication Service.
+  - Step-6: Registered the following Resource providers:
+    
+    * Microsoft.NetworkFunction
+
+    * Microsoft.Storage
+
+    * Microsoft.Web
+
+    * Microsoft.Communication
+    
+    - What are the Resource providers?
+
+    - In an Azure subscription, resource providers are services that define and manage specific types of Azure resources. Before you can create a resource, the  corresponding resource provider must be registered in the subscription.
+    
+    - Login to Azure Portal → Subscriptions → select your subscription → Resource providers → search the provider (e.g., Microsoft.Storage) → click Register → wait a few seconds until the status changes to Registered.
+  
+  - Step-7: Create Resource Group and Function App, Azure Communication Service and Azure Email Communication Service.
 
   - Step-7: Create Azure storage account with container for testing.
 
