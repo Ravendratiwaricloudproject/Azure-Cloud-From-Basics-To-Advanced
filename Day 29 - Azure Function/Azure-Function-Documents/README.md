@@ -220,7 +220,7 @@ An Azure Function App is a container (or hosting environment) for one or more Az
 
 * Shares configuration, runtime, scaling rules, and resources.
 
-* Connected to things like: 
+* Connected to things like:
   - Storage account 
   - App settings 
   - Authentication 
@@ -245,10 +245,13 @@ You do not need to manage servers. It runs only when triggered and scales automa
 
 Best for:
 
-Event-driven tasks
-APIs
-Background processing
-Microservices
+* Event-driven tasks
+
+* APIs
+
+* Background processing
+
+* Microservices
 
 👉 Simple example: Like an electric switch — the light turns on only when you press it.
 
@@ -260,10 +263,13 @@ It provides a visual designer and many built-in connectors (Microsoft services, 
 
 Best for:
 
-Business process automation
-System integrations
-Connecting multiple services without writing much code
-Very useful for integrations between apps.
+* Business process automation
+  
+* System integrations
+  
+* Connecting multiple services without writing much code
+  
+* Very useful for integrations between apps.
 
 👉 Simple example:
 Like a remote control — it connects and manages different devices easily.
@@ -277,9 +283,12 @@ It runs as part of an App Service plan and does not scale independently.
 It is older compared to Azure Functions.
 
 Best for:
-Continuous background jobs
-Scheduled tasks
-Applications already running on App Service
+
+* Continuous background jobs
+  
+* Scheduled tasks
+  
+* Applications already running on App Service
 
 👉 Simple example:
 Like a fan running in your house — it keeps running in the background.
