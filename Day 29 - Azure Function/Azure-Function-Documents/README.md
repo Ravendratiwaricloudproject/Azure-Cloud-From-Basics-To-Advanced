@@ -241,9 +241,7 @@ An Azure Function is a single unit of execution—basically one piece of serverl
 
 Azure Functions is a serverless compute service that runs small pieces of code when triggered by an event.
 
-You do not need to manage servers.
-It runs only when triggered and can scale automatically.
-You pay only for execution time (in the Consumption plan).
+You do not need to manage servers. It runs only when triggered and scales automatically.
 
 Best for:
 
@@ -252,8 +250,7 @@ APIs
 Background processing
 Microservices
 
-👉 Simple example:
-Like an electric switch — the light turns on only when you press it.
+👉 Simple example: Like an electric switch — the light turns on only when you press it.
 
 🔹Azure Logic Apps:
 
