@@ -16,6 +16,12 @@
 
 # Open you VS Code and install following Extensions:
 
+ 1. Create one Folder with any name in you Local PC.
+
+  2. Search for VS code in your Local PC and open it.
+  
+# install following Extensions:
+
 - Azure CLI Tools → Run Azure CLI to log in to Azure portal and interact with Azure resources, and create and manage resources    from VS Code
 
  Check the version- az --version
@@ -35,17 +41,15 @@
 - Note: Make sure you install all the extensions provided by Microsoft.
 #################################################################################################
 
-# Option-1: Go back to VS code and create Azure function locally with Event Grid trigger:
-  
-  1. Create one Folder with any name in you Local PC.
+# Option-1: Create Azure function locally with Event Grid trigger:
 
-  2. Search for VS code in your Local PC and open it. In Visual Studio Code, press "fn + F1" OR you can press "ctrl + shift + p" to open the command palette,  enter and select Azure Functions: Create new project.
+  1. In Visual Studio Code, press "fn + F1" OR you can press "ctrl + shift + p" to open the command palette,  enter and select Azure Functions: Create new project.
 
-  4. For your project workspace, select a directory Name and location. Make sure that you either create a new folder or choose an empty folder for the project workspace.
+  2. For your project workspace, select a directory Name and location. Make sure that you either create a new folder or choose an empty folder for the project workspace.
 
   - Don't choose a project folder that's already part of a workspace.
 
-  4. At the prompts, provide the following information:
+  3. At the prompts, provide the following information:
 
      - Select a language: Select Python
 
@@ -59,7 +63,7 @@
 
      - Select a workspace window: Open in current window
 
-  5. Once we create the function locally, it will generate the following files:
+  4. Once we create the function locally, it will generate the following files:
 
        1. local.settings.json
 
