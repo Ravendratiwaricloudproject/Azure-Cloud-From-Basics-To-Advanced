@@ -19,6 +19,8 @@
  1. Create one Folder with any name in you Local PC.
 
   2. Search for VS code in your Local PC and open it.
+
+  3. Open your newly created folder in VS Code.
   
 # install following Extensions:
 
