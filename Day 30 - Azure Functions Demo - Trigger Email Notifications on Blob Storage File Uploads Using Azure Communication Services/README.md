@@ -133,7 +133,7 @@
 
                python -m pip install -r requirements.txt
 
-  - Step-6: Registered the following Resource providers:
+  - Step-6: Go to Azure portal and Registered the following Resource providers:
     
     * Microsoft.NetworkFunction
 
@@ -150,48 +150,39 @@
 - Login to Azure Portal → Subscriptions → select your subscription → Resource providers → search the provider (e.g., Microsoft.Storage) → click Register → wait a few seconds until the status changes to Registered.
   
   - Step-7: Create Resource Group and Function App, Azure Communication Service and Azure Email Communication Service.
-
-  - Step-8: Create Azure storage account with container for testing.
-
-  - Step-9:  Create EventGrid Subscription for storage account.
  
-  - Azure CLI ( For Linux / macOS / Bash):
- 
-    az eventgrid event-subscription create --name < event subscription name > --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "azurefunction Endpoint URL" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
-    
+  - Step-8: Deploy function to function App
 
-- Azure CLI (Windows / PowerShell):
-  
-az eventgrid event-subscription create --name < event subscription name > --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "azurefunction Endpoint URL" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+  - Step-9: Create Azure storage account with container for testing.
 
-- Note: How to get source-resource-id:
-  
-Azure Portal - Storage Account - Navigate to Settings → Properties - Look for Resource ID - Copy the value.
-
-- Note: How to get azurefunction Endpoint URL:
-
-  https://<FUNCTION_APP_NAME>.azurewebsites.net/runtime/webhooks/blobs?functionName=Host.Functions.EventGridBlobTrigger&code=<BLOB_EXTENSION_KEY>
+  - Step-10:  Create EventGrid Subscription for storage account.
 
 - Reference link: https://learn.microsoft.com/en-us/azure/azure-functions/functions-event-grid-blob-trigger?pivots=programming-language-python
 
-- In this example, replace <FUNCTION_APP_NAME> with the name of your function app, and <BLOB_EXTENSION_KEY> with the value you got from the portal. If you used a different name for your function, replace EventGridBlobTrigger with that function name.
+  Storage accounts - Event - select the + Event Subscription button, and provide values from the following table into the Basic tab:
+
+- Name:	myBlobEventSub
   
- 1. Function App -  select App keys - Under System keys, select the key named blobs_extension, and copy the key Value.
-    Include this value in the query string of the new endpoint URL.
+- Event Schema:	Event Grid Schema	Use the default schema for events.
+  
+- System Topic Name:	Name of the topic
+	
+- Endpoint: Azure Function
+  
+- Configure Endpoint:	Azure Function App & Function details
+  
+- Filter (Optional):
 
- 2. How to get <BLOB_EXTENSION_KEY>
-    
-Go to Azure Portal - Open your Function App - Go to Functions - Click your function (e.g., EventGridBlobTrigger) - Go to Function Keys
-
-Look for a key like:
-default
-or any custom key
-or a system key related to blob trigger
-
-You can now use this endpoint URL to create an event subscription.
+  - Enable subject filtering:	Enabled
  
+  - Subject Begins With:	/blobServices/default/containers/<CONTAINER_NAME>/blobs/<BLOB_PREFIX>
 
-  - Step-10: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
+    Replace <CONTAINER_NAME and <BLOB_PREFIX> with values you choose. This setting triggers the subscription only for blobs that start with BLOB_PREFIX and are in     the CONTAINER_NAME container.
+   - Subject Ends With:	.txt	(Ensures that the function is only triggered by blobs ending with .txt.)
+ 
+ - Click on create to create Event grid subscription.
+
+  - Step-11: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
           
           * ACS_CONNECTION_STRING: Value of the Azure communication service connection string.
 
@@ -199,11 +190,11 @@ You can now use this endpoint URL to create an event subscription.
 
           * TO_EMAIL: Value of the email where we want to send notification.
 
-  - Step-11: Go to the test storage account and upload any file to the container to verify that the Event Grid triggers the Azure Function, and that the Azure Function invokes ACS to send an email notification.
+  - Step-12: Go to the test storage account and upload any file to the container to verify that the Event Grid triggers the Azure Function, and that the Azure Function invokes ACS to send an email notification.
   
   - Note: Team you can upload any file name such as-  .txt, .jpg, .pdf, anything.
 
-  - Step-12: Now open your Email and check if you received notification.
+  - Step-13: Now open your Email and check if you received notification.
 
      
 
