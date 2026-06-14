@@ -163,7 +163,28 @@
 - Azure CLI (Windows / PowerShell):
   
 az eventgrid event-subscription create --name < event subscription name > --source-resource-id "<storage-account-resource-id>" --endpoint-type azurefunction --endpoint "azurefunction Endpoint URL" --included-event-types Microsoft.Storage.BlobCreated Microsoft.Storage.BlobDeleted
+
+- Note: How to get source-resource-id.
+Azure Portal - Storage Account - Navigate to Settings → Properties - Look for Resource ID - Copy the value.
+
+- Note: How to get azurefunction Endpoint URL:
+
+  https://<FUNCTION_APP_NAME>.azurewebsites.net/runtime/webhooks/blobs?functionName=Host.Functions.EventGridBlobTrigger&code=<BLOB_EXTENSION_KEY>
+
+ 1.  In this example, replace <FUNCTION_APP_NAME> with the name of your function app, and <BLOB_EXTENSION_KEY> with the value you got from the portal. If you used a different name for your function, replace EventGridBlobTrigger with that function name.
   
+ 2. Function App -  select App keys - Under System keys, select the key named blobs_extension, and copy the key Value.
+    Include this value in the query string of the new endpoint URL.
+
+3. How to get <BLOB_EXTENSION_KEY>
+Go to Azure Portal - Open your Function App - Go to Functions - Click your function (e.g., EventGridBlobTrigger) - Go to Function Keys
+Look for a key like:
+default
+or any custom key
+or a system key related to blob trigger
+
+You can now use this endpoint URL to create an event subscription.
+ 
 
   - Step-10: Go to Azure Portal → Function App → setting → Environment variable →  App Settings and add environment variables:
           
