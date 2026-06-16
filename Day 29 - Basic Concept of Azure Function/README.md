@@ -160,14 +160,15 @@ Bindings can be:
 
 • Output Bindings: Send data from your function to an external service.
 
-Example of Bindings:
 
-|Binding Type|	   |Direction|	                   |Description|
+## Example of Bindings
 
-|Blob Storage|	   |Input|                 	  |Reads a blob from Azure Blob Storage as input to the function|
-|Queue Storage|	|Output|	                    |Add a message to a storage queue|
-|Cosmos DB|	      |Input|                      |Read documents from a Cosmos DB|
-|SendGrid|	      |Output|	                    |Send an email after function runs|
+| Binding Type   | Direction | Description |
+|----------------|-----------|-------------|
+| Blob Storage   | Input     | Reads a blob from Azure Blob Storage as input to the function |
+| Queue Storage   | Output    | Adds a message to a storage queue |
+| Cosmos DB      | Input     | Reads documents from a Cosmos DB |
+| SendGrid       | Output    | Sends an email after the function runs |
 
 
 # What is “Cold Start” in Azure Function:
