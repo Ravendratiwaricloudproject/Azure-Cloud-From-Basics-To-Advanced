@@ -148,7 +148,6 @@ Result:
 
 The VM becomes more powerful, but you still have only one VM.
 
----
 
 2. Scale Down (Vertical Scaling)
 
