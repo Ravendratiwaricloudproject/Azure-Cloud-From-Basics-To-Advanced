@@ -19,9 +19,11 @@ You only pay when your code runs.
 Azure Functions are highly versatile and can be applied to a variety of scenarios. Here are some common and effective use cases:
 
 1. Serverless APIs:
+   
 You can use Azure Functions to build RESTful APIs without managing infrastructure. Functions can handle HTTP requests, process data, and return responses, making it a cost-effective solution for API endpoints.
 
-2. Data Processing:
+3. Data Processing:
+   
 Functions are ideal for processing data in real-time or in batch operations. This includes transforming, aggregating, or analyzing data.
 
 Example:
@@ -30,7 +32,9 @@ Example:
 • Batch Processing: Execute periodic jobs for data cleanup, enrichment, or integration tasks.
 
 3. Background Jobs:
+   
 Automate background tasks such as sending emails, generating reports, or performing scheduled maintenance.
+
 Example:
 
 • Timer Triggers: Schedule functions to run at specific intervals for routine tasks.
