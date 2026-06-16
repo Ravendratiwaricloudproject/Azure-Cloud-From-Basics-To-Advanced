@@ -22,7 +22,7 @@ Azure Functions are highly versatile and can be applied to a variety of scenario
    
 You can use Azure Functions to build RESTful APIs without managing infrastructure. Functions can handle HTTP requests, process data, and return responses, making it a cost-effective solution for API endpoints.
 
-3. Data Processing:
+2. Data Processing:
    
 Functions are ideal for processing data in real-time or in batch operations. This includes transforming, aggregating, or analyzing data.
 
@@ -41,12 +41,14 @@ Example:
 
 
 4. File Processing:
+   
 Azure Functions can process files uploaded to Azure Blob Storage, perform transformations, and move or archive files.
 
 Example:
 • Blob Triggers: Automatically process files when they are added or updated in blob storage.
 
 5. Real-Time Notifications:
+   
 Create real-time notifications and alerts based on events from various sources, such as changes in databases or incoming messages.
 
 Example:
@@ -61,6 +63,7 @@ Example:
 • Custom Integrations: Build custom integrations with APIs or external systems.
 
 7. DevOps and CI/CD:
+   
 Implement serverless functions as part of your DevOps pipeline for automated deployment, testing, or monitoring tasks.
 
 Example:
