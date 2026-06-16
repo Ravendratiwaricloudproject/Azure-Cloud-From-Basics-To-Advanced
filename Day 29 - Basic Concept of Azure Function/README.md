@@ -162,12 +162,12 @@ Bindings can be:
 
 Example of Bindings:
 
-Binding Type	 Direction	                   Description
+|Binding Type|	   |Direction|	                   |Description|
 
-Blob Storage	  Input                  	  Reads a blob from Azure Blob Storage as input to the function
-Queue Storage	  Output	                    Add a message to a storage queue
-Cosmos DB	     Input	                    Read documents from a Cosmos DB
-SendGrid	        Output	                    Send an email after function runs
+|Blob Storage|	   |Input|                 	  |Reads a blob from Azure Blob Storage as input to the function|
+|Queue Storage|	|Output|	                    |Add a message to a storage queue|
+|Cosmos DB|	      |Input|                      |Read documents from a Cosmos DB|
+|SendGrid|	      |Output|	                    |Send an email after function runs|
 
 
 # What is “Cold Start” in Azure Function:
