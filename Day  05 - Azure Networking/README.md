@@ -72,8 +72,8 @@ MAC addresses are used to identify and communicate with devices within the same 
 
 ## What is IP (Internet Protocol)?
 
-IP is a Logical address comprises of ‘4’ octet and each octet is differentiated by dot (.)  
-IP address is used to provide communication between device over the internet.  
+- IP is a Logical address comprises of ‘4’ octet and each octet is differentiated by dot (.)
+- IP address is a unique logical address that identifies a device on a network (such as the internet or a local network) and enables communication between devices. 
 
 ---
 
@@ -147,16 +147,13 @@ IP address is used to provide communication between device over the internet.
 
 
 ## What is CIDR (Classless Inter-Domain Routing)?
-
-- It is a method for representing an IP Range.  
+  
 - It is used to represent an IP range.  
 - It is composed of an address in the range and a number between 0 and 32.  
 - The number indicates the number of bits that are allocated to the address. The smaller the number - the larger the range.  
 
 ### CIDR Notation Example:
-- 10.0.0.0/16 → 16 bits allocated for range  
-
- - 8 bits | 8 bits | 8 bits | 8 bits = 16 bits
+- 10.0.0.0/16 → 16 bits allocated for range
 
 - The IP address range 10.0.0.0 to 10.0.255.255 contains 65,536 usable IP addresses, as it represents a /16 CIDR block.  
 - /16 Meaning: The "/16" indicates that the first 16 bits of the IP address are the network address, and the remaining 16 bits are for host addresses.  
@@ -200,7 +197,6 @@ In Azure VNet, a "route" is a rule within a route table that determines where ne
 ---
 
 ## What is Network Security Group (NSG)?
-## What is Network Security Group (NSG)?
 
 - A Network Security Group (NSG) is an Azure networking resource that contains a set of security rules used to allow or deny inbound and outbound network traffic to Azure resources.  
 - NSGs can be associated with subnets or network interfaces (NICs) of virtual machines to control network access based on source, destination, port, protocol, and direction.  
@@ -220,8 +216,8 @@ Looks at 5 tuples:
 
 Note: Based on these 5 tuples, the connection is either allowed or denied This is called Security Rule  
 
-Each rule is assigned a number  
-The lower the number – the higher the priority of the rule  
+- Each rule is assigned a number  
+- The lower the number – the higher the priority of the rule  
 
 ---
 
