@@ -1,3 +1,12 @@
-# Please follow the video on the YouTube channel.
+#cloud-config
 
- - Titled: Day 11 - How To Create Virtual Machine Scale Set (VMSS).
+package_update: true
+package_upgrade: true
+
+packages:
+  - nginx
+
+runcmd:
+  - systemctl enable nginx
+  - systemctl start nginx
+  - echo "<h1>Welcome to Nginx on Azure VMSS</h1>" > /var/www/html/index.html
