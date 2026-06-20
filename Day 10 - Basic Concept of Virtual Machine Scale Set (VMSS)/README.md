@@ -192,7 +192,6 @@ The same VM continues to run, but at a lower cost.
 * Provides high availability and application resiliency
 * Automatically scales based on workload demand
 * Supports large-scale applications
-* All VMs can be created from the same image
 * Managed as a single group
 * Ideal for handling unpredictable traffic
 * New VM instances are automatically created from the original image
