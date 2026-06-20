@@ -9,4 +9,4 @@ packages:
 runcmd:
   - systemctl enable nginx
   - systemctl start nginx
-  - echo "<h1>Welcome to Nginx on Azure VMSS</h1>" > /var/www/html/index.html
+  - echo "<h1> Welcome to Nginx on Azure VMSS </h1>" > /var/www/html/index.html
