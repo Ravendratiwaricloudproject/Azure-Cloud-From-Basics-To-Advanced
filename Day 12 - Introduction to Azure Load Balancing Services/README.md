@@ -4,14 +4,16 @@
 
 Azure Load Balancing is a service that automatically distributes incoming network traffic across multiple Virtual Machines (VMs) or other backend resources to improve application availability, scalability, and reliability.
 
-# Types of Load Balancing Services in Azure: In Azure, there are two types of load Balancing services:
+# Types of Load Balancing Services in Azure:
+
+In Azure, there are two types of load Balancing services:
 
 1. Load Balancer
 
 2. Application Gateway
 
 
-1. Azure Load Balancer
+# Azure Load Balancer
 
 Azure Load Balancer is a Layer 4 (Transport Layer) load balancer service that distributes incoming traffic across multiple backend servers.
 
@@ -29,21 +31,21 @@ It can be public or private.
 
 It operates at Layer 4 (Transport layer) of the OSI model.
 
-Types of Azure Load Balancer:
+- Types of Azure Load Balancer:
 
-Basic Load Balancer
+* Basic Load Balancer
 
-Standard Load Balancer
+* Standard Load Balancer
 
-Difference between Basic and Standard Load Balancer:
+- Difference between Basic and Standard Load Balancer:
 
-Basic Load Balancer:
+* Basic Load Balancer:
 
 Suitable for small or testing environments.
 Limited features.
 Lower scalability.
 
-Standard Load Balancer:
+* Standard Load Balancer:
 
 Recommended for production workloads.
 Higher availability and scalability.
@@ -56,7 +58,7 @@ Basic Load Balancer → Small or test environments
 Standard Load Balancer → Production environments
 
 
-2. Azure Application Gateway
+# Azure Application Gateway
 
 Azure Application Gateway is a Layer 7 (Application Layer) load balancer designed specifically for web applications.
 
