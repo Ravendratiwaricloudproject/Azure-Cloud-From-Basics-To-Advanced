@@ -43,9 +43,7 @@ Day-11: Azure Virtual Machine Scale Set (VMSS) Demo.
 
 We will learn how VM Scale Sets help with high availability and auto-scaling for virtual machines.
 
-Day-12: Basic Concepts of Azure Load Balancer & Application Gateway
-
-We will understand Azure Load Balancer concepts and its different types.
+Day-12: Basic Concepts of Azure Load Balancing services
 
 Day-13: Azure Load Balancer Demo
 
