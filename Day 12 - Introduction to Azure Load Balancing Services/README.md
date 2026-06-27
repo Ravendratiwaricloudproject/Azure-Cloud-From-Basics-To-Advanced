@@ -33,9 +33,9 @@ It operates at Layer 4 (Transport layer) of the OSI model.
 
 Types of Azure Load Balancer:
 
-Basic Load Balancer
+ * Basic Load Balancer
 
-Standard Load Balancer
+ * Standard Load Balancer
 
 Difference between Basic and Standard Load Balancer:
 
