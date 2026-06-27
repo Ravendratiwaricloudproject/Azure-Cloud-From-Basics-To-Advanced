@@ -33,19 +33,19 @@ It operates at Layer 4 (Transport layer) of the OSI model.
 
 Types of Azure Load Balancer:
 
-  * Basic Load Balancer
+Basic Load Balancer
 
-  * Standard Load Balancer
+Standard Load Balancer
 
 Difference between Basic and Standard Load Balancer:
 
-  * Basic Load Balancer:
+Basic Load Balancer:
 
 Suitable for small or testing environments.
 Limited features.
 Lower scalability.
 
- * Standard Load Balancer:
+Standard Load Balancer:
 
 Recommended for production workloads.
 Higher availability and scalability.
@@ -55,6 +55,7 @@ Supports Availability Zones and larger backend pools.
 In simple words:
 
 Basic Load Balancer → Small or test environments
+
 Standard Load Balancer → Production environments
 
 
