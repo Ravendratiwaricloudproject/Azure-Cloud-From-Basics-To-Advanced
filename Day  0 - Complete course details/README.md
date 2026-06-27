@@ -37,97 +37,101 @@ Day-9: Azure Update Manager
 
 We will use Azure Update Manager service and we will see how to manage OS updates and patching in Azure VMs, including manual and automated patching approaches.
 
-Day-10: Azure Virtual Machine Scale Set (VMSS)
+Day-10: Basic Concepts of Azure Virtual Machine Scale Set (VMSS)
+
+Day-11: Azure Virtual Machine Scale Set (VMSS) Demo.
 
 We will learn how VM Scale Sets help with high availability and auto-scaling for virtual machines.
 
-Day-11: Basic Concepts of Azure Load Balancer
+Day-12: Basic Concepts of Azure Load Balancer
 
 We will understand Azure Load Balancer concepts and its different types.
 
-Day-12: Azure Load Balancer
+Day-13: Azure Load Balancer
 
 We will understand Azure Load Balancer and perform a real-time traffic distribution demo.
 
-Day-13: Application Gateway (Layer-7 Load Balancer)
+Day-14: Application Gateway (Layer-7 Load Balancer)
 
 We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
 
-Day-14: Azure NAT (Network Address Translation) gateway
+Day-15: Azure NAT (Network Address Translation) gateway
 
 We will understand outbound internet connectivity using Azure NAT Gateway.
 
-Day-15: Azure Private Endpoint
+Day-16: Azure Private Endpoint
 
 We will implement private connectivity to Azure services using Private Endpoint.
 
-Day-16: Azure Service Endpoint
+Day-17: Azure Service Endpoint
 
 We will secure Azure services using Service Endpoints.
 
-Day-17: Virtual Network Gateway
+Day-18: Virtual Network Gateway
 
 We will configure Azure VPN Gateway with a real-time demo. it is a type of Virtual Network Gateway.
 
-Day-18: Azure Virtual Network Peering
+Day-19: Azure Virtual Network Peering
 
 We will connect two VNets using VNet Peering. 
 
 Note: We can connect multiple VNets using VNet Peering.
 
-Day-19: Identity management (Entra ID)
+Day-20: Identity management (Entra ID)
 
 We will learn Azure Entra ID concepts like users, groups, RBAC, and authentication.
 
-Day-20: Basic concept of Azure Storage(Data)
+Day-21: Basic concept of Azure Storage(Data)
 
 We will learn Azure storage account in very detail.
 
-Day-21: Basic Concepts of Database Services
+Day-22: Basic Concepts of Database Services
 
 We will cover the theoretical concepts of databases in Azure.
 
-Day 22: Relational Database Service – Azure MySQL
+Day 23: Relational Database Service – Azure MySQL
 
 We will learn how to create, configure, and manage Azure MySQL relational database service.
 
-Day-23: Relational Database Service- Azure MSSQL 
+Day-24: Relational Database Service- Azure MSSQL 
 
 We will also learn how to create, configure, and manage Azure MSSQL relational database service.
 
-Day-24: Non-relational (NoSQL)- Azure Cosmos DB
+Day-25: Non-relational (NoSQL)- Azure Cosmos DB
 
 We will learn Azure Cosmos DB.
 
-Day-25: NoSQL In-Memory Database- Azure Redis
+Day-26: NoSQL In-Memory Database- Azure Redis
 
 We will learn Azure Redis.
 
-Day-26: Azure CLI
+Day-27: Azure CLI
 
 We will create and manage Azure resources using Azure CLI commands.
 
-Day-27: ARM Template (Azure Resource Manager Template)
+Day-28: ARM Template (Azure Resource Manager Template)
 
 We will deploy infrastructure using ARM templates.
 
-Day-28: Azure App Service
-
 We will deploy and manage web applications using Azure App Service.
 
-Day-29: Azure Function
+Day-29: Basic Concept of Azure Function
 
 We will learn Azure Functions serverless computing service.
 
-Day-30: Azure Logic APPs
+Day-30: Azure Function Demo
+
+Day-31: Azure App Service
+
+Day-32: Azure Logic APPs
 
 We will automate workflows using Azure Logic Apps.
 
-Day-31: Azure Automation Account
+Day-33: Azure Automation Account
 
 We will automate tasks using Azure Automation account.
 
-Day-32: Messaging in Azure
+Day-34: Basic Concept of Messaging services in Azure
 
 We will learn each messaging services:
 
@@ -136,7 +140,15 @@ We will learn each messaging services:
    * Events Grid
    * Event Hubs
 
-Day-33: Monitoring in Azure
+Day-35: Storage Queue Demo
+
+Day-36: Service Bus Demo
+
+Day-37: Events Grid Demo
+
+Day-38: Event Hubs Demo
+
+Day-39: Basic Concept of Monitoring services in Azure
 
 We will learn each Monitoring services in very detail:
 
@@ -147,7 +159,19 @@ We will learn each Monitoring services in very detail:
    * Insights
    * Diagnostic Settings
 
-Day-34: Azure DNS(Domain Name System)
+Day-40:  Azure Monitor service Demo
+
+Day-41:  Azure Microsoft Defender- (Security alerts and incidents) Demo
+
+Day-42:  Activity Log Demo
+
+Day-43: Azure Service Health Demo 
+
+Day-44:  Insights Demo
+
+Day-45:  Diagnostic Settings Demo
+
+Day-46: Azure DNS(Domain Name System)
 
 We will learn following DNS services:
 
@@ -159,27 +183,29 @@ We will learn following DNS services:
    
    • Azure Traffic Manager
 
-Day-35: Azure Front Door and CDN
+Day-47: Azure Front Door and CDN
 
 We will learn Azure Front Door and CDN content delivery services.
 
-Day-36: Azure Container Registry (ACR)
+Day-48: Azure Key Vault
+
+###########################################################################################
+
+# Azure Container Registry (ACR)
 
 We will store and manage container images using ACR.
 
-Day-37: Azure Kubernetes Service (AKS)
+# Azure Kubernetes Service (AKS)
 
 We will deploy and manage containerized applications using AKS.
 
-Day-38: Azure Key Vault
-
 We will secure secrets and integrate Key Vault with AKS.
 
-Day-39: Azure DevOps
+# Azure DevOps
 
 We will learn CI/CD pipelines, repositories, and automation using Azure DevOps.
 
-Day-40: Azure Bicep
+# Azure Bicep
 
 We will create resources using Azure Bicep.
 
