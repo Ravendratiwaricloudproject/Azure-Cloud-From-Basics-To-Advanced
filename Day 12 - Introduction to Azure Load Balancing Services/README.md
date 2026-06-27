@@ -31,21 +31,21 @@ It can be public or private.
 
 It operates at Layer 4 (Transport layer) of the OSI model.
 
-- Types of Azure Load Balancer:
+Types of Azure Load Balancer:
 
-* Basic Load Balancer
+  * Basic Load Balancer
 
-* Standard Load Balancer
+  * Standard Load Balancer
 
-- Difference between Basic and Standard Load Balancer:
+Difference between Basic and Standard Load Balancer:
 
-* Basic Load Balancer:
+  * Basic Load Balancer:
 
 Suitable for small or testing environments.
 Limited features.
 Lower scalability.
 
-* Standard Load Balancer:
+ * Standard Load Balancer:
 
 Recommended for production workloads.
 Higher availability and scalability.
@@ -96,6 +96,8 @@ It works at Layer 7 (Application layer) of the OSI model.
 
 
 In simple words:
+
 Azure Load Balancer is used for basic traffic distribution.
+
 Application Gateway is used for smart routing of web traffic with more advanced features
 
