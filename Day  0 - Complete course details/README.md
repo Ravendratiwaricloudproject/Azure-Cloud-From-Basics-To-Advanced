@@ -43,15 +43,17 @@ Day-11: Azure Virtual Machine Scale Set (VMSS) Demo.
 
 We will learn how VM Scale Sets help with high availability and auto-scaling for virtual machines.
 
-Day-12: Basic Concepts of Azure Load Balancing services
+Day-12: Introduction to Azure Load Balancing Services
+
+We will understand the different Azure load balancing services and their use cases.
 
 Day-13: Azure Load Balancer Demo
 
-We will understand Azure Load Balancer and perform a real-time traffic distribution demo.
+We will explore Azure Load Balancer and perform a real-time traffic distribution demo.
 
-Day-14: Application Gateway (Layer-7 Load Balancer) Demo
+Day-14: Azure Application Gateway (Layer-7 Load Balancer) Demo
 
-We will explore Azure Application Gateway, including HTTP/HTTPS traffic routing, SSL termination, and WAF basics.
+We will explore Azure Application Gateway, including HTTP traffic routing and Web Application Firewall (WAF) basics.
 
 Day-15: Azure NAT (Network Address Translation) gateway
 
