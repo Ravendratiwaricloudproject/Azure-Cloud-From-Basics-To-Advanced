@@ -6,9 +6,7 @@
 The term load balancing refers to the distribution of processing across multiple computing resources. You load balance to optimize resource usage, maximize throughput, minimize response time, and avoid overloading any single resource. Load balancing can also improve availability by sharing a workload across redundant computing resources.
 
 Azure provides various load balancing services that you can use to distribute your workloads across multiple computing resources.
-
 # Types of Load Balancing Services in Azure: 
-
 1. Azure Load Balancer
 2. Azure Application Gateway
 3. Application Gateway for Containers
