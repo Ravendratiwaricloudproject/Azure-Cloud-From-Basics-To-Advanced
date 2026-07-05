@@ -21,7 +21,7 @@ Azure provides various load balancing services that you can use to distribute yo
 
 
 
-1. Azure Load Balancer:
+#1. Azure Load Balancer:
 
 Load Balancer is a Layer 4 (Transport Layer) load balancer service that distributes incoming traffic across multiple backend servers.
 
@@ -74,7 +74,7 @@ Cisco
 
 
 
-2. Application Gateway
+#2. Application Gateway
 
 Azure Application Gateway is a Layer 7 (Application Layer) load balancer designed specifically for web applications.
 
@@ -100,21 +100,21 @@ It works at Layer 7 (Application layer) of the OSI model.
 
 
 
-3. Application Gateway for Containers:
+#3. Application Gateway for Containers:
 
 It is an application layer (layer 7) load balancing and dynamic traffic management product for workloads running in a Kubernetes cluster.
 
 It is used to distributes web traffic for Azure Kubernetes service (AKS) workloads.
 
 
-4. Azure Front Door(Content delivery):
+#4. Azure Front Door(Content delivery):
 
 
 Azure Front Door is an application delivery network that provides global load balancing and site acceleration for web applications.
 
  It provides Layer-7 capabilities for your application such as Secure Sockets Layer (SSL) offload, path-based routing, fast failover, and caching to improve performance and high availability.
 
-5. Azure API Management:
+#5. Azure API Management:
 
 API Management is a managed service that you can use to publish, secure, transform, maintain, and monitor HTTP(S) APIs. It provides a gateway for your APIs and can be configured to load balance traffic across nodes in a designated load balanced back-end pool. You can choose from three different load balancing methods: round-robin, weighted, and priority-based.
 
@@ -124,7 +124,7 @@ API Management isn't a traditional, general-purpose load balancer. It's designed
 
 
 
-6. Azure Traffic Manager(DNS load balancing):
+#6. Azure Traffic Manager(DNS load balancing):
 
 Traffic Manager is a Domain Name System (DNS)-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness.
 
