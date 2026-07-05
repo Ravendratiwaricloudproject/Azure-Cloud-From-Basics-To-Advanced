@@ -67,14 +67,13 @@ An NVA is a virtual machine that acts as a network device. Instead of forwarding
 
 - Note: Most NVAs come from security/network companies such as:
 
+  Palo Alto Networks
 
-Palo Alto Networks
+  Fortinet
 
-Fortinet
+  Check Point Software Technologies
 
-Check Point Software Technologies
-
-Cisco
+  Cisco
 
 
 
