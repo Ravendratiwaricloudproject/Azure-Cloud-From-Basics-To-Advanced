@@ -18,7 +18,7 @@ Azure provides various load balancing services that you can use to distribute yo
 6. Azure Traffic Manager
 
 
-- 1. Azure Load Balancer:
+ 1. Azure Load Balancer:
 
 Load Balancer is a Layer 4 (Transport Layer) load balancer service that distributes incoming traffic across multiple backend servers.
 
