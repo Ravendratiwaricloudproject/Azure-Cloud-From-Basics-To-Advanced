@@ -60,11 +60,13 @@ Custom network/security appliances
 # What is a Network Virtual Appliance (NVA)?
 
 An NVA is a virtual machine that acts as a network device. Instead of forwarding traffic directly to your application, it can inspect, filter, or protect the traffic.
+
 Note: Azure-native NVAs: Azure Firewall & Azure Application Gateway
 
 
 
 Note: Most NVAs come from security/network companies such as:
+
 
 Palo Alto Networks
 Fortinet
