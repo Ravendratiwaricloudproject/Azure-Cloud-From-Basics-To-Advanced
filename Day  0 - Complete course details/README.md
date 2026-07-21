@@ -55,23 +55,23 @@ Day-14: Azure Application Gateway (Layer-7 Load Balancer) Demo
 
 We will explore Azure Application Gateway, including HTTP traffic routing and Web Application Firewall (WAF) basics.
 
-Day-15: Azure NAT (Network Address Translation) gateway
+Day-15: Azure NAT Gateway Demo
 
-We will understand outbound internet connectivity using Azure NAT Gateway.
+Day-16: Introduction to Azure Private Link
 
-Day-16: Azure Private Endpoint
+Day-17: Azure Private Endpoint Demo
 
 We will implement private connectivity to Azure services using Private Endpoint.
 
-Day-17: Azure Service Endpoint
+Day-18: Azure Service Endpoint Demo
 
 We will secure Azure services using Service Endpoints.
 
-Day-18: Virtual Network Gateway
+Day-19: Virtual Network Gateway Demo
 
 We will configure Azure VPN Gateway with a real-time demo. it is a type of Virtual Network Gateway.
 
-Day-19: Azure Virtual Network Peering
+Day-20: Azure Virtual Network Peering Demo
 
 We will connect two VNets using VNet Peering. 
 
