@@ -55,5 +55,5 @@ Using a NAT Gateway, resources in private subnets can initiate communication wit
 
 • And more.
 
-# Note: In AWS, the equivalent of Azure NAT Gateway is " NAT Gateway "
+# Note: In AWS, the equivalent of Azure NAT Gateway is NAT Gateway
 
