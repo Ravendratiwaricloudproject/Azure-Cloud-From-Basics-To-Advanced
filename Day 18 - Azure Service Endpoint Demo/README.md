@@ -6,9 +6,9 @@ Azure Service Endpoints are a networking feature in Microsoft Azure that allows 
 
 Service Endpoints provide a direct and secure connection to Azure services such as Azure Storage, Azure SQL Database, and Azure Key Vault without requiring traffic to traverse the public internet.
 
-- Note: In AWS, the equivalent of Azure's “Service Endpoint” is "Gateway VPC Endpoint"
+## Note: In AWS, the equivalent of Azure's “Service Endpoint” is "Gateway VPC Endpoint"
 
-- Key Characteristics of Service Endpoints:
+# Key Characteristics of Service Endpoints:
 
 • Public Service, Private Routing: Service endpoints route traffic through the Azure backbone network while still accessing Azure services using their public IP addresses. The traffic does not traverse the public internet.
 
@@ -16,7 +16,7 @@ Service Endpoints provide a direct and secure connection to Azure services such 
 
 • DNS Resolution: Service endpoints continue to use the public DNS name of the Azure service (for example, storageaccount.blob.core.windows.net). DNS resolution remains public, but the network path stays within the Azure backbone. 
 
-- Azure Services That Support Service Endpoints:
+# Azure Services That Support Service Endpoints:
 
 • Azure Storage
 
@@ -43,7 +43,7 @@ Service Endpoints provide a direct and secure connection to Azure services such 
 • And many more.
 
 
-- When to Use Service Endpoints:
+# When to Use Service Endpoints:
 
 Choose Service Endpoints if:
 
@@ -54,7 +54,7 @@ Choose Service Endpoints if:
 • You need to leverage Network Security Groups (NSGs) to limit access from specific subnets or VNets.
 
 
-- Important Note:
+# Important Note:
 
 A Service Endpoint allows an Azure resource inside a VNet (for example, a VM) to securely access an Azure PaaS service (for example, Storage Account).
 
