@@ -25,10 +25,9 @@ Azure Storage, Azure SQL Database, Azure Cosmos DB, Azure Key Vault, Azure App S
 Azure Private Link consists of two primary components:
 
 • Private Endpoint
-
 • Private Link Service
 
-- Note: Private Endpoints and Private Link service are components of Azure Private Link, but they serve different roles within the Private Link architecture.
+## Note: Private Endpoints and Private Link service are components of Azure Private Link, but they serve different roles within the Private Link architecture.
 
 - Private Endpoint allows consumers to privately connect to a service.
 
