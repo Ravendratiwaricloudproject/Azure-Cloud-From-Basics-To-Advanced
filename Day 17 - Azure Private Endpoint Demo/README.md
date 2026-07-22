@@ -1,0 +1,1 @@
+# For detailed theory on Azure Private Endpoints, refer to the GitHub directory: **Day 16 – Introduction to Azure Private Link**.
