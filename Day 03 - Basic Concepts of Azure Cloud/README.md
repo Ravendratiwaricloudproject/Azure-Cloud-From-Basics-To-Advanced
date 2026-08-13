@@ -45,7 +45,7 @@ A Management Group is a container that holds multiple Azure subscriptions togeth
 **Example:**
 Apply a policy on Finance MG that says "only create VMs in India region" ? every subscription inside Finance MG follows this rule automatically.
 
-> All subscriptions within a Management Group must trust the same **Microsoft Entra tenant.**
+All subscriptions within a Management Group must trust the same **Microsoft Entra tenant.**
 
 ---
 
