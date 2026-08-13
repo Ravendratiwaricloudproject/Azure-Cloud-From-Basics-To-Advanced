@@ -1,64 +1,100 @@
-# Management Levels and Hierarchy in Azure.
+# Day-3: Basic Concepts of Azure Cloud
 
-1. Management Groups
+## What is Microsoft Azure?
 
-Purpose: Help you manage access, policy, and compliance for multiple subscriptions.
+"Microsoft Azure is Microsoft's public cloud computing platform that provides on-demand IT services such as compute, storage, networking, databases, and security over the internet."
 
-Key Point: All subscriptions within a management group automatically inherit the conditions applied to that group.
+Microsoft Azure is a public cloud computing platform developed by Microsoft. that provides on-demand IT services such as compute, storage, networking, databases, and security over the internet."
 
-Use Case: Great for organizations with many subscriptions—it lets you apply policies at scale instead of individually.
+It lets you and companies rent computing power, storage, and databases from Microsoft's global data centers instead of buying physical hardware. You only pay for the specific services you use.
 
-2. Subscriptions
+## What is an Azure Account?
 
-Definition: A subscription logically associates user accounts with the resources they create.
+An **Azure Account** is the sign-in identity (Microsoft Entra ID account). It is how a person authenticates into Azure.
 
-Key Points:
+It does not contain resources by itself — it is simply the identity used to access and manage resources across subscriptions.
 
-Each subscription has limits or quotas on the number of resources it can use.
 
-Organizations use subscriptions to manage costs and allocate resources for users, teams, or projects.
+## What is a Tenant?
 
-Tip: Think of subscriptions as containers that help to organize billing and usage.
+A **Tenant** is a dedicated instance of **Microsoft Entra ID** that your organization gets when it signs up for any Microsoft cloud service (Azure, Microsoft 365, etc.).
 
-3. Resource Groups
+Think of it as your **company's identity boundary** — it holds all your users, groups, and applications in one place. Every Azure subscription must be linked to exactly one tenant.
 
-Definition: Logical containers where you deploy and manage Azure resources like virtual machines, databases, web apps, and storage accounts.
+---
 
-Simplified: Resource groups are basically a grouping of resources for easier management.
+## What is a Directory?
 
-Why it matters: Makes it easier to organize, monitor, and control access to related resources.
+A **Directory** (Microsoft Entra ID) is the identity store inside a tenant. It answers the question: **"Who are you?"**
 
-4. Resources
+It contains:
+- Users
+- Groups
+- Applications
+- Service Principals
 
-Definition: The building blocks of your Azure environment.
+Every tenant has exactly one directory, and the directory is responsible for authentication and identity management.
 
-Examples: Virtual machines, databases, storage accounts, networking services, and more.
 
-Key Point: Each resource is provisioned and managed individually, even if it's part of a resource group.
+## What are Azure Management Groups?
 
-5. Azure Resource Manager (ARM)
+A **Management Group** is an organizational layer above subscriptions. Use it to apply **Azure Policy** and **RBAC** across many subscriptions in one shot.
 
-Definition: ARM is the deployment and management service for Azure. It provides a consistent way to manage resources.
+A Management Group is a container that holds multiple Azure subscriptions together so you can manage them as one unit. Instead of setting policies and access rules on each subscription separately, you set them **once on the Management Group** — and they automatically apply to all subscriptions inside it. This is called **inheritance.**
 
-Key Features:
+**Example:**
+Apply a policy on Finance MG that says "only create VMs in India region" ? every subscription inside Finance MG follows this rule automatically.
 
-Template-Based Deployment: Use JSON templates to define and deploy resources consistently.
+> All subscriptions within a Management Group must trust the same **Microsoft Entra tenant.**
 
-Dependency Management: ARM handles dependencies automatically, deploying resources in the correct order.
+---
 
-Rollback/Roll-forward: Automatically revert or update deployments if something goes wrong.
+## Root Management Group
 
-Tagging & Categorization: Organize resources for easier management.
+The **Root Management Group** is the top-level management group that Azure automatically creates for every tenant. You do not create it — it is always there.
 
-Note: Understanding ARM, resources, and resource groups is fundamental to managing Azure efficiently.
+Every Management Group and subscription in your tenant sits inside the Root MG. Any policy or access rule set here applies to your **entire organization.**
 
-6. Difference Between Subscriptions and Azure Accounts
-  
-Subscriptions:
-1. It is a Logical Container.
-2. Contains the various resources you provision in the cloud (VMs, databases, networks, etc.)
-3. Can be attached to multiple Azure accounts
+---
 
- Azure Accounts:
- 1. It is An identity with access to resources in the subscriptions (i.e., you)
- 2. Can be attached to multiple subscriptions
+## What is a Subscription?
+
+A **Subscription** is the billing and authorization boundary in Azure. It answers the question: **"Where is the bill and who can access what?"**
+
+- All resources live inside a subscription
+- It defines **who can do what** (RBAC inherited from the directory)
+- It defines **where charges roll up** (billing)
+- It enforces **quotas and limits**
+
+A subscription is linked to exactly **one directory** at a time, but you can transfer a subscription to a different directory if needed.
+
+---
+
+## What is a Resource Group?
+
+A Resource Group is a logical container inside a subscription that groups related resources together. It answers the question: How do I group related things I deploy together?
+- Every resource must belong to exactly **one** resource group
+- Resources in a resource group typically share the same lifecycle (deployed, updated, and deleted together)
+- A resource group belongs to one subscription only.
+
+## What is a Resource?
+
+Actual Azure service — VM, Database, Storage etc.
+
+## Quick Reference Table
+
+- Tenant:  Your company's identity boundary in Microsoft Entra ID
+
+- Directory: Stores users, groups, apps — answers "Who are you?
+
+- Azure Account: Sign-in identity — how a person authenticates
+
+- Management Group: Groups subscriptions to apply policies in one shot
+
+- Root Management Group: Top-level MG auto-created by Azure — holds everything
+
+- Subscription: Billing and access boundary — holds all resources
+
+- Resource Group: Logical folder inside a subscription for related resources
+
+- Resource:  Actual Azure service — VM, Database, Storage etc.
