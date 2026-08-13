@@ -8,7 +8,7 @@ It allows individuals and companies to use computing power, storage, databases, 
 
 Microsoft's Azure offering more than 200 products and services across a global network of datacenters. It allows individuals and organizations to build, deploy, and manage applications and services through Microsoft-managed data centers around the world.
 
-It reduces the time and cost of maintaining on-premises hardware, and provides a unified approach to cloud computing with AI, data, and application services all working together.
+It reduces the time and cost of maintaining on-premises hardware and provides a unified cloud computing environment where AI, data, services, and applications can work together.
 
 ## What is an Azure Account?
 
