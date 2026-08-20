@@ -6,7 +6,7 @@ If you needed a server, you had to:
 1. Buy physical servers (physical computers) and other hardware
 2. Set up a server room or data center to keep the servers
 3. Install and configure the operating system and software
-4. Set up networking and storage
+4. Set up networking
 5. Maintain and monitor the hardware
 6. Replace hardware when it became outdated or failed
 7. Hire a full IT team to manage the infrastructure
