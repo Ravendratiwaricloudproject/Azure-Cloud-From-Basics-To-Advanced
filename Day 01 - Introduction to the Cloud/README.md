@@ -8,7 +8,7 @@ If you needed a server, you had to:
 3. Install and configure the operating system and software
 4. Set up networking
 5. Maintain and monitor the hardware
-6. Replace hardware when it became outdated or failed
+6. Replace hardware when it became outdated
 7. Hire a full IT team to manage the infrastructure
 
 And this was not just for servers, but also for:
@@ -29,13 +29,13 @@ Instead of relying on our personal computer or local storage to handle everythin
 with an internet connection. Such as Server, Network, Storage, Database, Application and services. In the cloud, we stop thinking about Infrastructure like Hardware and use
 it as a Software.
 
-# what does mean by Network of Remote Servers?
+# What does mean by Network of Remote Servers?
 
 A network of remote servers is a collection of computers located somewhere else and connected to each other, that provide computing resources and services to users over the Internet.
 
 
 
-Examples of Cloud services:
+# Examples of Cloud services:
 You already use cloud services every day:
 1. Google Drive / Dropbox → Cloud Storage
 2. Gmail / Outlook → Cloud Email
