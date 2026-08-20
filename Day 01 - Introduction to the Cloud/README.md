@@ -2,12 +2,14 @@
 
 # Before the cloud…
 If you needed a server, you had to:
-1. Buy physical servers
-2. Install operating systems and software
-3. Set up networking
-4.  Maintain hardware
-5.   Replace servers when they became old
-6.   Hire a full IT team
+
+1. Buy physical servers (physical computers) and other hardware
+2. Set up a server room or data center to keep the servers
+3. Install and configure the operating system and software
+4. Set up networking and storage
+5. Maintain and monitor the hardware
+6. Replace hardware when it became outdated or failed
+7. Hire a full IT team to manage the infrastructure
 
 And this was not just for servers, but also for:
 1. Databases
