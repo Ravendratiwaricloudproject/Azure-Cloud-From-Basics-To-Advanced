@@ -25,13 +25,14 @@ Problems with this approach:
 
 # What is Cloud?
 The cloud refers to a global network of remote servers that store, process and manage data, run applications for devices and computers and deliver content and services over the internet.
-Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time
-with an internet connection.
+Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time with an internet connection.
+
+The main purpose of the cloud is to provide on-demand access to computing resources and services over the internet. This includes a wide range of services such as servers, application, storage, databases, networking, software, analytics, and intelligence. The cloud allowing users and organizations to use these resources without having to manage physical servers or run software applications on their own computers.
 
 
-# What does mean by Network of Remote Servers?
+# What does mean by Global Network of Remote Servers?
 
-A network of remote servers is a collection of computers located somewhere else and connected to each other, that provide computing resources and services to users over the Internet.
+A global network of remote servers is a collection of computers located somewhere else and connected to each other, that provide computing resources and services to users over the Internet.
 
 
 
@@ -67,7 +68,7 @@ we would need to:
 Region = A geographic area where cloud data centers are located.
 1. Each region is isolated from other regions
 2. A region contains multiple Availability Zones
-3. Example: East US, West Europe, Asia Pacific
+3. Example: East US, West Europe, Asia Pacific etc.
 
 # What is Availability zone (AZ)?
 Each Region has multiple, Isolated locations known as availability zone (AZ).
