@@ -24,10 +24,10 @@ Problems with this approach:
 4. Difficult to scale when users increased
 
 # What is Cloud?
-Compute, Networking, Storage and other services Managed by someone else. The cloud refers to a network of remote servers that store and manage data, run applications, and deliver content and services over the internet.
+The cloud refers to a global network of remote servers that store, process and manage data, run applications for devices and computers and deliver content and services over the internet.
 Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time
-with an internet connection. Such as Server, Network, Storage, Database, Application and services. In the cloud, we stop thinking about Infrastructure like Hardware and use
-it as a Software.
+with an internet connection.
+
 
 # What does mean by Network of Remote Servers?
 
