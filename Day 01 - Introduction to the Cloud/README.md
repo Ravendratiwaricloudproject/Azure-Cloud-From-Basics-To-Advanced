@@ -24,10 +24,9 @@ Problems with this approach:
 4. Difficult to scale when users increased
 
 # What is Cloud?
-The cloud refers to a global network of remote servers that store, process and manage data, run applications for devices and computers and deliver content and services over the internet.
-Instead of relying on our personal computer or local storage to handle everything, the cloud services, allowing users to access resources and data from anywhere at any time with an internet connection.
+The cloud refers to a global network of remote servers that store, process, and manage data, run applications for devices and computers, and deliver content and services over the internet. Instead of relying on personal computers or local storage to handle everything, cloud services allow users to access data and computing resources from anywhere and at any time, with an internet connection.
 
-The main purpose of the cloud is to provide on-demand access to computing resources and services over the internet. This includes a wide range of services such as servers, application, storage, databases, networking, software, analytics, and intelligence. The cloud allowing users and organizations to use these resources without having to manage physical servers or run software applications on their own computers.
+The main purpose of the cloud is to provide on-demand access to computing resources and services over the internet. This includes a wide range of services such as servers, application, storage, databases, networking, analytics, and intelligence. The cloud allows users and organizations to use these resources without having to manage physical servers or run software applications on their own computers.
 
 
 # What does mean by Global Network of Remote Servers?
