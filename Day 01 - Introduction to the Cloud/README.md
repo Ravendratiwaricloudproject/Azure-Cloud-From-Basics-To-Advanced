@@ -82,12 +82,7 @@ If one AZ fails, others continue working.
  2. Install servers, networking, cooling, electricity
  3. Create cloud services
  4. Make them accessible over the internet
-Examples:
-AWS (Amazon Web Services),
-
-Microsoft Azure,
-
-Google Cloud Platform etc.
+Examples: AWS, Microsoft Azure, Google Cloud Platform etc.
 
 In the cloud area… If you need a server, you can:
 1. Create it in the cloud within minutes
