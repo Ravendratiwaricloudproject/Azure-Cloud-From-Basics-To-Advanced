@@ -2,7 +2,7 @@
 
 ## What is Azure/Microsoft Azure?
 
-Microsoft Azure is Microsoft's public cloud computing platform that provides on-demand IT services such as compute, storage, networking, databases, and security over the internet.
+Microsoft Azure is a public cloud computing platform that provides on-demand IT services such as compute, storage, networking, databases, and security over the internet.
 
 It allows individuals and companies to use computing power, storage, databases, and other IT services over the internet without having to purchase or maintain physical hardware. You only pay for the specific services that you use.
 
