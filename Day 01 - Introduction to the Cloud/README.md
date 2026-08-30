@@ -104,7 +104,7 @@ In the cloud area… If you need a server, you can:
 
 3. Resource Pooling:
 It is a pool of computing resources that can be dynamically allocated to users or customers as needed. In resource pooling, multiple customers services can run on shared physical infrastructure, which helps to reduce costs. Physical resources such as CPU, memory, storage, and networking are shared among customers. The cloud provider's infrastructure automatically determines which physical resources to allocate to a customer's virtual services.
-Some cloud services also provide dedicated or isolated physical resources for customers that need more isolation. Resource Pooling means, AWS manages its underlying physical resources as a shared pool and dynamically allocates them to customers as needed.
+Some cloud services also provide dedicated or isolated physical resources for customers that need more isolation.
 
 5. Rapid Elasticity:
    Resources can be scaled up and down as needed, automatically.
