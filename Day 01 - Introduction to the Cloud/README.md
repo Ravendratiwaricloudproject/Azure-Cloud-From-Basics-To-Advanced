@@ -72,7 +72,7 @@ Region = A geographic area where cloud data centers are located.
 # What is Availability zone (AZ)?
 Each Region has multiple, Isolated locations known as availability zone (AZ).
 1. A physically separate data center
-2. Has its own power, cooling, and networking
+2. AZ Has its own power, cooling, and networking
 3. Designed for high availability and fault tolerance
 If one AZ fails, others continue working.
 
@@ -103,7 +103,7 @@ In the cloud area… If you need a server, you can:
     No physical access is required at any time.	
 
 3. Resource Pooling:
-It is a pool of computing resources that can be dynamically allocated to users or customers as needed. In resource pooling, multiple customers services can run on shared physical infrastructure, which helps to reduce costs. Physical resources such as CPU, memory, storage, and networking are shared among customers. The cloud provider's infrastructure automatically determines which physical resources to allocate to a customer's virtual services.
+It is a pool of computing resources that can be dynamically allocated to users or customers as needed. In resource pooling, multiple customers services can run on shared physical infrastructure, which helps to reduce costs. Physical resources such as CPU, memory, storage, and networking are shared among customers. The cloud provider's infrastructure automatically determines which physical resources to allocate to a customer's services.
 Some cloud services also provide dedicated or isolated physical resources for customers that need more isolation.
 
 5. Rapid Elasticity:
