@@ -11,10 +11,9 @@ Microsoft's Azure offering more than 200 products and services across a global n
 It reduces the time and cost of maintaining on-premises hardware and provides a unified cloud computing environment where AI, data, services, and applications can work together.
 
 ## What is an Azure Account?
+An Azure Account is the sign-in identity, typically a Microsoft Entra ID account.
+It is the identity used to access and manage Azure resources.
 
-An **Azure Account** is the sign-in identity (Microsoft Entra ID account). It is how a person authenticates into Azure.
-
-It does not contain resources by itself — it is simply the identity used to access and manage resources across subscriptions.
 
 
 ## What is a Tenant?
