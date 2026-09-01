@@ -32,6 +32,7 @@ A directory is a container for objects such as users, groups, and applications, 
  Yes, Tenant ID and Directory ID are the same value — they are two names for the same GUID. Microsoft just exposes it under both names depending on the context:
 
 Tenant ID — used when talking about authentication, subscriptions, and service access
+
 Directory ID — used when talking about identity objects (users, groups, apps)
 
 ## What are Azure Management Groups?
@@ -68,19 +69,18 @@ A **Subscription** is the billing and authorization boundary in Azure. It answer
 - Many subscriptions can belong to one tenant, but one subscription cannot belong to multiple tenants simultaneously.
 - We can move a subscription to a different tenant, but at any point in time it remains tied to exactly one.
 
-Why we might transfer:
-Company merger or acquisition
-Reorganizing your Azure environment
-Moving from a personal/test tenant to a corporate tenant
-
 What is preserved after transfer:
+
 All resources inside the subscription (VMs, storage, databases, etc.)
+
 The subscription ID
 
 What is lost or reset after transfer:
 
 All RBAC role assignments — must be manually reassigned
+
 Managed identities — system-assigned are deleted; user-assigned must be relinked
+
 Azure AD-integrated services may break temporarily and need reconfiguration
 
 ## What is a Resource Group?
