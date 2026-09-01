@@ -14,28 +14,19 @@ It reduces the time and cost of maintaining on-premises hardware and provides a 
 An Azure Account is the sign-in identity, typically a Microsoft Entra ID account.
 It is the identity used to access and manage Azure resources.
 
-
-
 ## What is a Tenant?
 
-A **Tenant** is a dedicated instance of **Microsoft Entra ID** that your organization gets when it signs up for any Microsoft cloud service (Azure, Microsoft 365, etc.).
-
-Think of it as your **company's identity boundary** — it holds all your users, groups, and applications in one place. Every Azure subscription must be linked to exactly one tenant.
+A tenant is a dedicated and isolated instance of the Microsoft Entra ID service that an organization receives when it signs up for a Microsoft cloud service such as Azure, Microsoft 365, or Dynamics 365. Each tenant has its own identity and access management scope, and is distinct and separate from other tenants. A tenant is also associated with a unique tenant ID, which is a globally unique identifier (GUID) that identifies the tenant in Microsoft Entra ID.
 
 ---
 
 ## What is a Directory?
 
-A **Directory** (Microsoft Entra ID) is the identity store inside a tenant. It answers the question: **"Who are you?"**
+A directory is a container for objects such as users, groups, and applications, Service Principals and is used to manage access to resources in Azure. A directory is also associated with a unique directory ID, which is a GUID that identifies the directory in 
+Microsoft Entra ID.
 
-It contains:
-- Users
-- Groups
-- Applications
-- Service Principals
-
-Every tenant has exactly one directory, and the directory is responsible for authentication and identity management.
-
+## Difference between Tenant and Directory:
+ The main difference between a tenant and a directory is that a tenant is a dedicated and isolated instance of Azure Entra ID, while a directory is a container for objects such as users, groups, and applications. A tenant can contain one or more directories, and each directory can contain one or more tenants.
 
 ## What are Azure Management Groups?
 
