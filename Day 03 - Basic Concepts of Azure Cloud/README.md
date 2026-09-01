@@ -27,9 +27,9 @@ A directory is a container for objects such as users, groups, and applications, 
 ## Difference between Tenant and Directory:
  The main difference between a tenant and a directory is that a tenant is a dedicated and isolated instance of Azure Entra ID, while a directory is a container for objects such as users, groups, and applications. Every tenant has exactly one directory, and every directory belongs to exactly one tenant.
 
- # Does Tenant ID and Directory ID are the same value?
+ # Does Tenant ID (GUID) and Directory ID (GUID) are the same value?
  
- Tenant ID and Directory ID are the same value — they are two names for the same GUID. Microsoft just exposes it under both names depending on the context:
+ Yes, Tenant ID and Directory ID are the same value — they are two names for the same GUID. Microsoft just exposes it under both names depending on the context:
 
 Tenant ID — used when talking about authentication, subscriptions, and service access
 Directory ID — used when talking about identity objects (users, groups, apps)
