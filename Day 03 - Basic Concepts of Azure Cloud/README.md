@@ -63,10 +63,25 @@ A **Subscription** is the billing and authorization boundary in Azure. It answer
 - It defines **who can do what** (RBAC inherited from the directory)
 - It defines **where charges roll up** (billing)
 - It enforces **quotas and limits**
+- A subscription is linked to exactly one tenant at a time.
+- A subscription is linked to exactly one directory at a time.
+- Many subscriptions can belong to one tenant, but one subscription cannot belong to multiple tenants simultaneously.
+- We can move a subscription to a different tenant, but at any point in time it remains tied to exactly one.
 
-A subscription is linked to exactly **one directory** at a time, but you can transfer a subscription to a different directory if needed.
+Why we might transfer:
+Company merger or acquisition
+Reorganizing your Azure environment
+Moving from a personal/test tenant to a corporate tenant
 
----
+What is preserved after transfer:
+All resources inside the subscription (VMs, storage, databases, etc.)
+The subscription ID
+
+What is lost or reset after transfer:
+
+All RBAC role assignments — must be manually reassigned
+Managed identities — system-assigned are deleted; user-assigned must be relinked
+Azure AD-integrated services may break temporarily and need reconfiguration
 
 ## What is a Resource Group?
 
