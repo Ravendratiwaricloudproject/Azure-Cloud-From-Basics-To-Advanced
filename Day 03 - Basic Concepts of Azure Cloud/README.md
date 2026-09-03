@@ -10,6 +10,15 @@ Microsoft's Azure offering more than 200 products and services across a global n
 
 It reduces the time and cost of maintaining on-premises hardware and provides a unified cloud computing environment where AI, data, services, and applications can work together.
 
+## What is Microsoft Entra?
+
+Microsoft Entra is a family of identity and network access products that helps organizations implement a Zero Trust security strategy. Use Microsoft Entra to verify identities, validate access conditions, check permissions, encrypt connection channels, and monitor for compromise across your environment.
+
+
+## What is Microsoft Entra ID?
+
+Microsoft Entra ID is the foundational product of Microsoft Entra. It's a cloud-based identity and access management service that provides authentication, policy enforcement, and protection for users, devices, apps, and resources. Every new Microsoft Entra directory includes an initial domain name, like contoso.onmicrosoft.com. You can also add your organization's custom domain names.
+
 ## What is an Azure Account?
 An Azure Account is the sign-in identity, typically a Microsoft Entra ID account.
 It is the identity used to access and manage Azure resources.
@@ -22,7 +31,8 @@ A tenant is a dedicated and isolated instance of the Microsoft Entra ID service 
 
 ## What is a Directory?
 
-A directory is a container for objects such as users, groups, and applications, Service Principals and it is used to manage access to resources in Azure. A directory is also associated with a unique directory ID, which is a GUID that identifies the directory in Microsoft Entra ID.
+A directory is a container for objects such as users, groups, applications and Service Principals.
+It is used to manage access to resources in Azure. A directory is also associated with a unique directory ID, which is a GUID that identifies the directory in Microsoft Entra ID.
 
 ## Difference between Tenant and Directory:
  The main difference between a tenant and a directory is that a tenant is a dedicated and isolated instance of Azure Entra ID, while a directory is a container for objects such as users, groups, and applications. Every tenant has exactly one directory, and every directory belongs to exactly one tenant.
