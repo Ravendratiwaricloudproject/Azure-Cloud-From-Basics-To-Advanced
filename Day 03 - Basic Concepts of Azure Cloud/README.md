@@ -19,6 +19,19 @@ Microsoft Entra is a family of identity and network access products that helps o
 
 Microsoft Entra ID is the foundational product of Microsoft Entra. It's a cloud-based identity and access management service that provides authentication, policy enforcement, and protection for users, devices, apps, and resources. Every new Microsoft Entra directory includes an initial domain name, like contoso.onmicrosoft.com. You can also add your organization's custom domain names.
 
+## What is Microsoft Entra Domain Services?
+Microsoft Entra Domain Services provides managed domain services (Microsoft Entra managed domain services) such as domain join, group policy, lightweight directory access protocol (LDAP), and Kerberos/NTLM authentication. You use these domain services without the need to deploy, manage, and patch domain controllers (DCs) in the cloud.
+
+# Note: Microsoft Entra Domain Services and Microsoft Entra managed domain services both are the exact same product and service.
+
+# Microsoft Entra Domain Services:
+This is the official product name (formerly known as Azure Active Directory Domain Services or Azure AD DS).
+
+# Microsoft Entra Managed Domain Services/ Managed Domain:
+
+This is the descriptive term Microsoft uses to explain what the service provides. It gives you a managed Active Directory environment where Microsoft handles the deployment, patching, and maintenance of the underlying domain controllers.
+
+
 ## What is an Azure Account?
 An Azure Account is the sign-in identity, typically a Microsoft Entra ID account.
 It is the identity used to access and manage Azure resources.
