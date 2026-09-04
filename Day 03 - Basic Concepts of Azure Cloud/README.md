@@ -6,7 +6,8 @@ Microsoft Azure is a public cloud computing platform that provides on-demand IT 
 
 It allows individuals and companies to use computing power, storage, databases, and other IT services over the internet without having to purchase or maintain physical hardware. You only pay for the specific services that you use.
 
-Microsoft's Azure offering more than 200 products and services across a global network of datacenters. It allows individuals and organizations to build, deploy, and manage applications and services through Microsoft-managed data centers around the world.
+Microsoft's Azure offering more than 200 products and services across a global network of datacenters. 
+It allows individuals and organizations to build, deploy, and manage applications and services through Microsoft-managed data centers around the world.
 
 It reduces the time and cost of maintaining on-premises hardware and provides a unified cloud computing environment where AI, data, services, and applications can work together.
 
