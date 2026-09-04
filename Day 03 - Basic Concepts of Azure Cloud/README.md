@@ -18,7 +18,8 @@ Microsoft Entra is a family of identity and network access products that helps o
 
 ## What is Microsoft Entra ID?
 
-Microsoft Entra ID is the foundational identity and access management (IAM) product within Microsoft Entra. It is a cloud-based identity and access management service that provides authentication, authorization, policy enforcement, and protection for users, groups, devices, applications, and resources.
+Microsoft Entra ID is the foundational identity and access management (IAM) product within Microsoft Entra.
+It is a cloud-based identity and access management service that provides authentication, authorization, policy enforcement, and protection for users, groups, devices, applications, and resources.
 It allows organizations to create and manage identities and control their access to applications, devices, and other resources.
 
 Every new Microsoft Entra directory includes an initial domain name, like contoso.onmicrosoft.com. 
