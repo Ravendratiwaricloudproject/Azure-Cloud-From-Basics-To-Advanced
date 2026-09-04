@@ -6,6 +6,7 @@
 
 A Virtual Network, or VNet, is your private network inside Azure. Think of it as your company's own data center network, but running in Microsoft's cloud.
 
+- Azure Virtual Network is one of the services that make up the Network Foundations category in Azure.
 - It is a Virtual network or Data center inside Azure for one client.  
 - It is logically Isolated from other virtual networks.  
 - It is a network in which you can deploy cloud resources.  
@@ -13,7 +14,7 @@ A Virtual Network, or VNet, is your private network inside Azure. Think of it as
 - Think of it as your organization’s private network.  
 - In AWS it’s called VPC – Virtual Private Cloud. Other organizations’ VNets.  
 - Resources in the same VNet can communicate with each other by default.  
-- But not with resources in other VNets.  
+But not with resources in other VNets.  
 - To establish connection between two VNet, we can use VNet Peering.
 
 ---
