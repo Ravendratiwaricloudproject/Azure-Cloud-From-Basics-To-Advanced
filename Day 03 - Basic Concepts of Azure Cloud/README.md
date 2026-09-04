@@ -30,10 +30,10 @@ Microsoft Entra Domain Services provides managed domain services (Microsoft Entr
 # Note:
 Microsoft Entra Domain Services and Microsoft Entra managed domain services both are the exact same product and service.
 
-# Microsoft Entra Domain Services:
+- Microsoft Entra Domain Services:
 This is the official product name (formerly known as Azure Active Directory Domain Services or Azure AD DS).
 
-# Microsoft Entra Managed Domain Services/ Managed Domain:
+- Microsoft Entra Managed Domain Services/ Managed Domain:
 
 This is the descriptive term Microsoft uses to explain what the service provides. It gives you a managed Active Directory environment where Microsoft handles the deployment, patching, and maintenance of the underlying domain controllers.
 
