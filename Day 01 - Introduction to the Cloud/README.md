@@ -50,7 +50,7 @@ Cloud computing is a combination of cloud and computing, where cloud refers to r
 Note: In the cloud computing, the term “compute” describes the concepts and objects related to software Computation.
 
 # Why do we need Cloud Computing?
-suppose we are hosting a website without cloud computing:
+Suppose we are hosting a website without cloud computing:
 we would need to:
 1. Buy expensive servers
 2. Estimate how many users will visit
