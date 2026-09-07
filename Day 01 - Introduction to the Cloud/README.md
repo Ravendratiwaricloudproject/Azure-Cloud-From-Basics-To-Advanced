@@ -135,11 +135,15 @@ Some cloud services also provide dedicated or isolated physical resources for cu
 4. Community Cloud:
  A Community means, Cloud infrastructure can be shared between multiple organizations that have similar needs or requirements.
 
-Suppose there are 5 banks:
+ Suppose there are 5 banks:
 Bank A
+
 Bank B
+
 Bank C
+
 Bank D
+
 Bank E
 
 All these banks need cloud services with high security and must follow similar banking rules and regulations.
@@ -151,7 +155,7 @@ So:
 
 This is called a Community Cloud.
 
-- In short: Community Cloud → Used by a specific group with common requirements
+- Community Cloud → Used by a specific group with common requirements
 
 
 
