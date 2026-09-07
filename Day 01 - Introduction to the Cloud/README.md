@@ -121,39 +121,41 @@ Some cloud services also provide dedicated or isolated physical resources for cu
 
 # Types of Clouds:
 
-1. Public Cloud: The Public cloud is a subscription base service that offered to any and all customers who want similar services. The cloud is set up in the public network and Managed by large companies. it is Accessible through the internet and Available to all clients and users. However, Clients have no access to underlying infrastructure.
+1. Public Cloud:
+  
+The Public cloud is a subscription base service that offered to any and all customers who want similar services. The cloud is set up in the public network and Managed by large companies. it is Accessible through the internet and Available to all clients and users. However, Clients have no access to underlying infrastructure.
 
-2. Private Cloud:
-   A cloud set up in an organization’s premises and Managed by the organization’s IT team. private cloud is Accessible only in the organization’s network and Available to users from the organizations.
+4. Private Cloud:
+   
+A cloud set up in an organization’s premises and Managed by the organization’s IT team. private cloud is Accessible only in the organization’s network and Available to users from the organizations.
 
  - Private Cloud → Used by one organization.  
 
-3. Hybrid Cloud: It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other. Hybrid Cloud set up in an organization’s premises… but also connected to the public cloud. Workload can be separated between the two clouds
-    i.e. Sensitive data in the organization’s premises, public data in the public cloud.
-   Usually managed by the public cloud, but not always.
+3. Hybrid Cloud:
+It is a mixture of Public and Private Cloud. In Hybrid cloud, Application is running in a combination of different computing environment that share information to each other. Hybrid Cloud set up in an organization’s premises… but also connected to the public cloud. Workload can be separated between the two clouds
+i.e. Sensitive data in the organization’s premises, public data in the public cloud. Usually managed by the public cloud, but not always.
 
-4. Community Cloud:
+6. Community Cloud:
+   
  A Community means, Cloud infrastructure can be shared between multiple organizations that have similar needs or requirements.
- Suppose there are 5 banks:
+ Suppose there are 5 banks:  
+      
+      Bank A
 
- Bank A
+      Bank B
 
- Bank B
+      Bank C
 
- Bank C
+      Bank D
 
- Bank D
+      Bank E
 
- Bank E
+     All these banks need cloud services with  high security and must follow similar  banking rules and regulations.
+     Instead of each bank having its own separate cloud, they can share one cloud environment designed specifically for banks.
 
- All these banks need cloud services with  high security and must follow similar  banking rules and regulations.
-Instead of each bank having its own separate cloud, they can share one cloud environment designed specifically for banks.
+     So: 5 banks → One shared cloud → Used only by those banks
 
- So:
-
- 5 banks → One shared cloud → Used only by those banks
-
- This is called a Community Cloud.
+     This is called a Community Cloud.
 
 - Community Cloud → Used by a specific group with common requirements
 
