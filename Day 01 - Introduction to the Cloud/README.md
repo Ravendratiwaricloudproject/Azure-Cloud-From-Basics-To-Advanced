@@ -71,9 +71,9 @@ Region = A geographic area where cloud data centers are located.
 
 # What is Availability zone (AZ)?
 Each Region has multiple, Isolated locations known as availability zone (AZ).
-1. A physically separate data center
-2. AZ has its own power, cooling, and networking
-3. Designed for high availability and fault tolerance
+1. AZ is a physically separate data center.
+2. AZ has its own power, cooling, and networking.
+3. It is Designed for high availability and fault tolerance.
 If one AZ fails, others continue working.
 
 # Who Are Cloud Providers?
