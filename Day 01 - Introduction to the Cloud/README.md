@@ -136,6 +136,7 @@ Some cloud services also provide dedicated or isolated physical resources for cu
  A Community means, Cloud infrastructure can be shared between multiple organizations that have similar needs or requirements.
 
  Suppose there are 5 banks:
+ 
 Bank A
 
 Bank B
