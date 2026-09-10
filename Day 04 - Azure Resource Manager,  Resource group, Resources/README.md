@@ -8,11 +8,16 @@ Template-Based Deployment: Use JSON templates to define and deploy resources con
 
 Dependency Management: ARM handles dependencies automatically, deploying resources in the correct order.
 
-Rollback/Roll-forward: Automatically revert or update deployments if something goes wrong.
+Rollback: Automatically revert or update deployments if something goes wrong.
 
-Tagging & Categorization: Organize resources for easier management.
+Tagging: Organize resources for easier management.
 
-Note: Understanding ARM, resources, and resource groups is fundamental to managing Azure efficiently.
+# What are Azure Resource Manager(ARM)templates?
+
+Azure Resource Manager templates are JavaScript Object Notation (JSON) files that define the infrastructure and configuration to deploy Azure resources.
+
+ARM templates is Declarative language.
+
 
 # Resource Groups
 Logical containers where you deploy and manage Azure resources like virtual machines, databases, web apps, and storage accounts.
