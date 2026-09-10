@@ -1,6 +1,6 @@
 # Azure Resource Manager (ARM)
 
- ARM is the deployment and management service for Azure. It provides a consistent way to manage resources.
+ ARM is the deployment and management service for Azure. It provides a management layer that helps to create, update, and delete resources in our Azure account. we use management features like access control, locks, and tags to secure and organize our resources after deployment.
 
 Key Features:
 
