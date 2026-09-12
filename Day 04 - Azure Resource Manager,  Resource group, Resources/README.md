@@ -12,7 +12,7 @@ Rollback: Automatically revert or update deployments if something goes wrong.
 
 Tagging: Organize resources for easier management.
 
-# What are Azure Resource Manager(ARM) templates?
+## What are Azure Resource Manager (ARM) templates?
 
 Azure Resource Manager templates are JavaScript Object Notation (JSON) files that define the infrastructure and configuration to deploy Azure resources.
 
