@@ -70,7 +70,7 @@ MAC addresses are used to identify and communicate with devices within the same 
 
 ---
 
-## What is IP (Internet Protocol)?
+## What is IP (Internet Protocol) address?
 
 - IP is a Logical address comprises of ‘4’ octet and each octet is differentiated by dot (.)
 - IP address is a unique logical address that identifies a device on a network (such as the internet or a local network) and enables communication between devices. 
