@@ -48,15 +48,14 @@ Addressing is the method used in computer networking to identify and locate devi
 
 ## Type of Addressing:
 
-### Physical Addressing
-- IP Address  
+1. Physical Addressing 
 - MAC Address (48 bits)  
 
-### Logical Addressing
+2. Logical Addressing
 - IPV6 (128 bits)  
 - IPV4 (32 bits)  
-- Private IP  
-- Public IP  
+  1. Private IP  
+  2. Public IP  
 
 ---
 
