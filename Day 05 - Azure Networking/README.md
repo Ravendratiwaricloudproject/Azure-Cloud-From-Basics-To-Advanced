@@ -52,8 +52,10 @@ Addressing is the method used in computer networking to identify and locate devi
 - MAC Address (48 bits)  
 
 2. Logical Addressing
-- IPV6 (128 bits)  
-- IPV4 (32 bits)  
+- IP Address
+- IP Address Types:
+  - IPV6 (128 bits)  
+  - IPV4 (32 bits):  
   1. Private IP  
   2. Public IP  
 
