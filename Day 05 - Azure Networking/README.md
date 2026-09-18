@@ -55,8 +55,10 @@ Addressing is the method used in computer networking to identify and locate devi
  - used for local/link communication
 
 2. Logical Addressing:
-    It is used for communication and routing between networks.
-- Example IP Address.
+   
+- It is used for communication and routing between networks.
+- Example: IP Address.
+  
   IP Address Types:
   - IPV6 (128 bits)  
   - IPV4 (32 bits):  
