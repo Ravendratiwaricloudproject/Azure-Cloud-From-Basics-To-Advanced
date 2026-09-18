@@ -84,9 +84,9 @@ A logical address is an address used at the Network Layer (Layer 3) of the OSI m
 The most common examples are IPv4 and IPv6 IP addresses.
 
 Example:
+- IPv4: 192.168.1.10
 
-IPv4: 192.168.1.10
-IPv6: 2001:db8::10
+- IPv6: 2001:db8::10
 
 
 ## Why is it called "logical"?
