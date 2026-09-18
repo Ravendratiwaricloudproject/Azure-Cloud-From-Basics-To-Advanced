@@ -94,8 +94,6 @@ It's called logical because the address is assigned based on the network's logic
 For example, you can move your laptop to another network and receive a different IP address.
 
 
-
-
 ## What is IP (Internet Protocol) address?
 
 - IP is a Logical address comprises of ‘4’ octet and each octet is differentiated by dot (.)
@@ -106,11 +104,13 @@ For example, you can move your laptop to another network and receive a different
 ## Type of IPv4 Address:
 
 ### (1) Private IP:
-- It is work at LAN  
-- It is used to communicate within the same network  
-- It is available free of cost  
-- Private IP is secure  
-- It is required NAT to communicate with device on internet  
+-  Private IP used within a private network.
+- Private IP not directly routable on the public Internet.
+- It is available free of cost.
+- It is required NAT to communicate with device on internet.
+- Private IP can be reused in different private networks.
+- Private IP: Usually assigned internally by a router, DHCP server, or network administrator.
+
 
 #### Private IP range:
 - 10.0.0.0 – 10.255.255.255  
@@ -119,15 +119,16 @@ For example, you can move your laptop to another network and receive a different
 
 ---
 
-### Public IP:
-- It is work at WAN  
-- It is used to communicate outside the network  
-- It is used to get internet service  
-- It is not available free of cost  
-- Public IP is not secure  
-- It is not required NAT to communicate with device on internet  
+### Public IP: 
+- Public IP used for Internet-routable communication.
+- It is used to communicate outside the network.
+- It is used to get internet service. 
+- It is not available free of cost. 
+- It is not required NAT to communicate with device on internet.
+- Public IP → must be unique within the Internet's routing context.
+- Public IP: Usually assigned by an ISP or another network/provider.
 
-## IP Address Class:
+## IP Address Classes:
 
 - IP addressing is divided into different classes based on the range of IP addresses.  
 - These classes are used to organize networks of different sizes.  
