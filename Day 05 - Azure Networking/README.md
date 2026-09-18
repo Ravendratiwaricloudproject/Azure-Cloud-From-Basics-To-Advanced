@@ -83,11 +83,6 @@ MAC addresses are used to identify and communicate with devices within the same 
 A logical address is an address used at the Network Layer (Layer 3) of the OSI model to identify a network interface and enable communication and routing between different networks.
 The most common examples are IPv4 and IPv6 IP addresses.
 
-Example:
-- IPv4: 192.168.1.10
-
-- IPv6: 2001:db8::10
-
 
 ## Why is it called "logical"?
 It's called logical because the address is assigned based on the network's logical structure, rather than being permanently tied to the physical network hardware.
