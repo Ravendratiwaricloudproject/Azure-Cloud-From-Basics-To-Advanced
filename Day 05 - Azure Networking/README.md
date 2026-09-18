@@ -48,12 +48,16 @@ Addressing is the method used in computer networking to identify and locate devi
 
 ## Type of Addressing:
 
-1. Physical Addressing 
-- MAC Address (48 bits)  
+1. Physical Addressing:
 
-2. Logical Addressing
-- IP Address
-- IP Address Types:
+ - Physical address is MAC Address (48 bits)
+ - Operate at Layer 2 of OSI Model.
+ - used for local/link communication
+
+2. Logical Addressing:
+    It is used for communication and routing between networks.
+- Example IP Address.
+  IP Address Types:
   - IPV6 (128 bits)  
   - IPV4 (32 bits):  
   1. Private IP  
@@ -71,6 +75,24 @@ MAC addresses are used to identify and communicate with devices within the same 
 - Assigned by the device manufacturer.  
 
 ---
+
+## What is a Logical Address in Computer Networking?
+
+A logical address is an address used at the Network Layer (Layer 3) of the OSI model to identify a network interface and enable communication and routing between different networks.
+The most common examples are IPv4 and IPv6 IP addresses.
+
+Example:
+
+IPv4: 192.168.1.10
+IPv6: 2001:db8::10
+
+
+## Why is it called "logical"?
+It's called logical because the address is assigned based on the network's logical structure, rather than being permanently tied to the physical network hardware.
+For example, you can move your laptop to another network and receive a different IP address.
+
+
+
 
 ## What is IP (Internet Protocol) address?
 
