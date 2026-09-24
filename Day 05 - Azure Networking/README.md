@@ -50,7 +50,7 @@ Addressing is the method used in computer networking to identify and locate devi
 
 1. Physical Addressing:
 
- - Physical address is MAC Address (48 bits).
+ - Example: MAC Address (48 bits).
 
 2. Logical Addressing:
 - Example: IP Address.
@@ -81,8 +81,11 @@ For example, you can move your laptop to another network and receive a different
 ## What is IP (Internet Protocol) address?
 
 - IP is a Logical address comprises of ‘4’ octet and each octet is differentiated by dot (.)
-- IP address is a unique logical address that identifies a device on a network (such as the internet or a local network) and enables communication between devices. 
+- IP address is a unique logical address that identifies a device on a network (such as the internet or a local network) and enables communication between devices.
 
+- IP addresses can be:
+Dynamic → assigned automatically and may change.
+Static → manually/configured to remain the same.
 ---
 
 ## Type of IPv4 Address:
