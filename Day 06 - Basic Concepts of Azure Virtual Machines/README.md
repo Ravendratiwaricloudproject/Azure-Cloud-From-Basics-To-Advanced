@@ -1,21 +1,15 @@
 # Basic Concepts of Azure Virtual Machines
 
 # What is Virtual Machines (VM)?
-
-•	It is computing service of Azure.
+A Virtual Machine (VM) is a cloud-based compute service that lets you run an operating system and software just like a physical computer — but without local hardware. Instead, it runs on cloud infrastructure.
 
 •	In Azure, it’s called VM (Virtual Machines)
 
 •	In AWS, it’s called EC2 Instance
 
-•	An Azure Virtual Machine (VM) is a cloud-based computing resource provided by Microsoft Azure, which is part of their cloud platform. 
+# What is Compute Service?
 
-It allows you to run an operating system (OS) and software just like you would on a physical computer, but instead of using your local hardware, the VM runs on the cloud infrastructure.
-
-# What is Computing Service?
-
-the Compute Service refers to the collection of resources and services designed to allow you to run and manage virtualized computing workloads.
-These services provide the infrastructure, platform, and tools to run applications, host websites, process data, and much more—all in the cloud.
+A Compute Service is a collection of resources and tools that let you run and manage virtualized workloads in the cloud. You can use compute services to run applications, host websites, process data, and more.
 
 
 # Here are some Important Computing services under Azure Compute:
