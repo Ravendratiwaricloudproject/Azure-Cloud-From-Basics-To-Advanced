@@ -1,7 +1,7 @@
 # Basic Concepts of Azure Virtual Machines
 
 # What is Virtual Machines (VM)?
-A Virtual Machine (VM) is a cloud-based compute service that lets you run an operating system and software just like a physical computer — but without local hardware. Instead, it runs on cloud infrastructure.
+A Virtual Machine (VM) is a computing service that provides a software-based computer, allowing you to run an operating system and applications on cloud infrastructure without needing to manage your own physical computer or hardware.
 
 •	In Azure, it’s called VM (Virtual Machines)
 
