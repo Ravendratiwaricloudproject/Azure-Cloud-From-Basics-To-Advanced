@@ -70,7 +70,7 @@ MAC addresses are used to identify and communicate with devices within the same 
 
 ## What is a Logical Address in Computer Networking?
 
-A logical address is a software-assigned address used at the Network Layer (Layer 3) to identify devices and enable communication between them. It is used to route packets between different networks or subnets and helps determine where packets should be sent across a network.
+A logical address is a software-assigned address used at the Network Layer (Layer 3) to identify devices and enable communication between them. It is used to route packets between different networks or subnets and help to determine where packets should be sent across a network.
 
 
 ## Why is it called "logical"?
