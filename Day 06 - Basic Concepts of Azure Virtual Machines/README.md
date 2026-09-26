@@ -83,19 +83,20 @@ In Azure, Saving Plans are a flexible pricing model, that offers low prices on A
 
 •	Cannot be stopped / refunded
 
-3. Spot Instances:
+2. Spot Instances:
    
 •	We can use spot Instance on spare VM capacity that is available for less than on-demand price.
 
 •	Machines that run on unused capacity in Azure
 
-•	Can be evicted any moment when needed by Azure
+•	Azure can evict the VM when it needs the capacity back.
 
 •	Offers up to 90% discount, price fluctuates according to demand
 
-•	Great for non-critical, non-continuous tasks
+•	Great for non-critical, non-continuous tasks.
 
-	i.e. Batch processes, long running calculations
+Example:
+Batch processing and software testing.
 
 # More Cost Saving Techniques:
 
