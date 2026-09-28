@@ -129,8 +129,8 @@ For example, you can move your laptop to another network and receive a different
 - Range: 1.0.0.0 to 126.255.255.255  
 - Default Subnet Mask: 255.0.0.0 (/8)  
 - Supports very large networks  
-- Used by large organizations  
-
+- Used by large organizations.
+- Note: 127.0.0.0/8 is reserved for loopback, so it is not used as a normal Class A network.
 ---
 
 ### Class B:
