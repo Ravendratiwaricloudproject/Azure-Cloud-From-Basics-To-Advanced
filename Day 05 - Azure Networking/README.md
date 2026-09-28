@@ -134,12 +134,16 @@ For example, you can move your laptop to another network and receive a different
 - Note: 127.0.0.0/8 is reserved for loopback IP address, so it is not used as a normal Class A network.
 
   
-Loopback means an IP address that a computer uses to communicate with itself.
-Think of it as:
+ Loopback means an IP address that a
+ computer uses to communicate with itself.
+ 
+ Think of it as:
 
-Send this network traffic back to me, not to another computer.
+ Send this network traffic back to me, 
+ not to another computer.
 
-The most commonly used loopback address is: 127.0.0.1
+ The most commonly used loopback address 
+ is: 127.0.0.1
 
 ---
 
