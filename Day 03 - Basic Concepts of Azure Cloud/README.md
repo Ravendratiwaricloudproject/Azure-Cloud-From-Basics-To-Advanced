@@ -48,7 +48,7 @@ It is the identity used to access and manage Azure resources.
 
 ## What is a Tenant?
 
-A tenant is a dedicated and isolated instance of the Microsoft Entra ID service that an organization receives when it signs up for a Microsoft cloud service such as Azure, Microsoft 365. Each tenant has its own identity and access management scope, and is distinct and separate from other tenants. A tenant is also associated with a unique tenant ID, which is a globally unique identifier (GUID) that identifies the tenant in Microsoft Entra ID.
+A tenant is a dedicated and isolated instance of the Microsoft Entra ID service that an organization receives when it signs up for a Microsoft cloud service such as Azure, Microsoft 365. Each tenant has its own identity and access management scope, and is distinct and separate from other tenants. A tenant is associated with a unique tenant ID, which is a globally unique identifier (GUID) that identifies the tenant in Microsoft Entra ID.
 
 ---
 
