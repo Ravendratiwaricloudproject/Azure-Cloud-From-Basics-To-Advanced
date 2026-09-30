@@ -112,7 +112,7 @@ Batch processing and software testing.
 
 •	Keep in mind: The disk type impacts the service level agreement (SLA).
 
-3. Auto Shutdown:
+2. Auto Shutdown:
    
 •	Automatically shuts down the machine when not needed
 
@@ -122,7 +122,7 @@ Batch processing and software testing.
 
 •	Can save  50% of VM cost
 
-3.	Select the right size for your machine
+3.	Select the right size for your machine.
 
 4. Select Linux over Windows when possible:
    
