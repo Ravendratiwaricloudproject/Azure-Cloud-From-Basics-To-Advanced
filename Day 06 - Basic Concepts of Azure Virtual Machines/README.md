@@ -33,34 +33,34 @@ Description:  General-purpose VMs are well-balanced machines suitable for a vari
 They offer a good balance of CPU-to-memory ratio and are suitable for development, testing, and small to medium-sized databases.
 Use Case: Hosting websites, lightweight applications, or development and testing environments.
 
-3. Compute Optimized:
+2. Compute Optimized:
    
 Example: Standard_F2s_v2
 Description: Compute optimized VMs are designed for compute-intensive workloads that require high CPU power.
 They provide a high CPU-to-memory ratio, making them suitable for data analytics and computational tasks.
 Use Case: Batch processing, gaming applications, and other CPU-intensive workloads.
 
-5. Memory Optimized:
+3. Memory Optimized:
    
 Example: Standard_E16s_v3
 Description: Memory optimized VMs are tailored for memory-intensive applications. They provide a high memory-to-CPU ratio, making them  suitable for databases, in-memory caching, and analytics.
 Use Case: Running large databases, in-memory caching, and analytics applications.
 
-7. Storage Optimized:
+4. Storage Optimized:
    
 Example: Standard_L8s_v2
 Description: Storage optimized VMs are designed for workloads that require high storage throughput and I/O performance.
 They provide high local disk throughput, making them suitable for big data and large databases.
 Use Case: Big data applications, data warehousing, and large-scale databases.
 
-9. GPU (Graphics Processing Unit):
+5. GPU (Graphics Processing Unit):
     
 Example: Standard_NC6s_v3
 Description: GPU (Graphics Processing Unit) VMs are equipped with powerful graphics processors,
 suitable for graphics-intensive applications and parallel processing tasks.
 Use Case: Machine learning, graphics rendering, and simulations that require GPU acceleration.
 
-11. High-Performance Compute VMs:
+6. High-Performance Compute VMs:
     
 Example: Standard_H16r
 Description: High-Performance Compute VMs are designed for demanding, parallel processing and high-performance computing (HPC) applications.
@@ -122,15 +122,15 @@ Batch processing and software testing.
 
 •	Can save  50% of VM cost
 
-5.	Select the right size for your machine
+3.	Select the right size for your machine
 
-6. Select Linux over Windows when possible:
+4. Select Linux over Windows when possible:
    
 i.e. if you have a choice, you should choose Linux instead of Windows for your system or application.
 
 This could be because Linux is often more cost-effective, secure, or efficient for certain tasks, especially in server or cloud environments.
 
-8. Check price in nearby regions
+5. Check price in nearby regions
 
 
 
