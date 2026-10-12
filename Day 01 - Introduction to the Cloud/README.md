@@ -167,7 +167,7 @@ Some cloud services also provide dedicated or isolated physical resources for cu
    The cloud provider provides the underlying infrastructure, including: Compute, Networking, Storage.
 
 
-   The client is responsible for: Operating System, Middleware, Runtime, Applications, Data. Most common example: Virtual Machines (VMs / Instances)
+   The client is responsible for: Operating System, Middleware, Runtime, Applications, Data. Most common example: Virtual Machines (VMs)/Instances.
    
 3. PaaS (Platform as a Service):
    The cloud provider provides a platform for running applications, including: Compute. Networking, Storage, Runtime environment, Scaling, Redundancy, Security, Updates, patching, and maintenance.
