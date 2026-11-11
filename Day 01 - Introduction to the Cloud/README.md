@@ -64,7 +64,7 @@ we would need to:
  4. High availability
 
 # What is Region?
-Region = A geographic area where cloud data centers are located.
+Region is a geographic area where cloud data centers are located.
 1. Each region is isolated from other regions
 2. A region contains multiple Availability Zones
 3. Example: East US, West Europe, Asia Pacific etc.
